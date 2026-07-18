@@ -228,6 +228,20 @@ button:hover {
   color: var(--tenue);
   margin: 0.2rem 0 0.5rem;
 }
+.historial-anio-cab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.historial-todas {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--tenue);
+  cursor: pointer;
+}
 .historial-fila {
   display: flex;
   align-items: center;

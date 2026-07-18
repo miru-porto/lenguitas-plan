@@ -14,8 +14,15 @@ const TURNOS: { valor: FiltroTurno; label: string }[] = [
 ];
 
 export default function App() {
-  const { estado, toggleCatedra, setEstadoMateria, setTurno, limpiar, permalink } =
-    useEstado();
+  const {
+    estado,
+    toggleCatedra,
+    setEstadoMateria,
+    setEstadoMaterias,
+    setTurno,
+    limpiar,
+    permalink,
+  } = useEstado();
   const [tab, setTab] = useState<"materias" | "historial">("materias");
   const [copiado, setCopiado] = useState(false);
 
@@ -106,7 +113,11 @@ export default function App() {
               onToggle={toggleCatedra}
             />
           ) : (
-            <Historial historial={estado.historial} onSet={setEstadoMateria} />
+            <Historial
+              historial={estado.historial}
+              onSet={setEstadoMateria}
+              onSetMuchas={setEstadoMaterias}
+            />
           )}
         </aside>
 
