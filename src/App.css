@@ -98,14 +98,22 @@ button:hover {
   background: var(--panel);
   border: 1px solid var(--borde);
   border-radius: 12px;
-  padding: 0.8rem;
+  /* Sin padding-top: lo aporta la barra de solapas sticky (evita que el contenido
+     se cuele por arriba al scrollear). */
+  padding: 0 0.8rem 0.8rem;
   max-height: 80vh;
   overflow-y: auto;
 }
 .panel-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   gap: 0.4rem;
-  margin-bottom: 0.6rem;
+  /* Cancela el padding lateral del panel para que la barra tape el contenido. */
+  margin: 0 -0.8rem 0.6rem;
+  padding: 0.8rem 0.8rem 0.6rem;
+  background: var(--panel);
 }
 .panel-tabs button {
   flex: 1;
