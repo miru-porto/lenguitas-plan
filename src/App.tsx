@@ -130,6 +130,33 @@ export default function App() {
           />
         </main>
       </div>
+
+      <footer className="app-footer">
+        {ENLACES.map((e) => (
+          <a key={e.href} href={e.href} target="_blank" rel="noopener noreferrer">
+            <span aria-hidden>{e.icono}</span>
+            {e.label}
+          </a>
+        ))}
+      </footer>
     </div>
   );
 }
+
+const ENLACES = [
+  {
+    href: "https://sites.google.com/view/terciariolenguitas/estudiantes/horarios-y-materias?authuser=0",
+    icono: "📅",
+    label: "Horarios oficiales",
+  },
+  {
+    href: "https://ratemyprof-lv.vercel.app/",
+    icono: "⭐",
+    label: "Rate My Prof",
+  },
+  {
+    href: "https://cafecito.app/miru-porto",
+    icono: "☕",
+    label: "Invitame un cafecito",
+  },
+];

@@ -362,6 +362,26 @@ button:disabled {
   );
 }
 
+/* Footer con enlaces externos minimalistas. */
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  margin: 1.5rem 0 0.5rem;
+  font-size: 0.85rem;
+}
+.app-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--tenue);
+  text-decoration: none;
+}
+.app-footer a:hover {
+  color: var(--acento);
+}
+
 /* ============================================================
    Responsive (al final para ganar la cascada sobre las reglas base)
    ============================================================ */
