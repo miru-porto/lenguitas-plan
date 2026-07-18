@@ -3,6 +3,7 @@ import "./App.css";
 import { catedras, nombreDe } from "./data";
 import { detectarSuperposiciones } from "./logic";
 import { useEstado, type FiltroTurno } from "./useEstado";
+import { descargarPNG } from "./export";
 import { Grilla } from "./components/Grilla";
 import { SelectorMaterias } from "./components/SelectorMaterias";
 import { Historial } from "./components/Historial";
@@ -21,10 +22,8 @@ export default function App() {
     setEstadoMaterias,
     setTurno,
     limpiar,
-    permalink,
   } = useEstado();
   const [tab, setTab] = useState<"materias" | "historial">("materias");
-  const [copiado, setCopiado] = useState(false);
 
   const seleccionadas = useMemo(
     () => catedras.filter((c) => estado.seleccionadas.includes(c.id)),
@@ -34,12 +33,6 @@ export default function App() {
     () => detectarSuperposiciones(seleccionadas),
     [seleccionadas],
   );
-
-  const copiarPermalink = async () => {
-    await navigator.clipboard.writeText(permalink());
-    setCopiado(true);
-    setTimeout(() => setCopiado(false), 1500);
-  };
 
   return (
     <div className="app">
@@ -51,8 +44,16 @@ export default function App() {
           </p>
         </div>
         <div className="app-acciones">
-          <button onClick={copiarPermalink}>
-            {copiado ? "¡Copiado!" : "Copiar link"}
+          <button
+            onClick={() => descargarPNG(seleccionadas)}
+            disabled={seleccionadas.length === 0}
+            title={
+              seleccionadas.length === 0
+                ? "Elegí materias para exportar"
+                : "Descargar tu horario como imagen (.png)"
+            }
+          >
+            Exportar
           </button>
           <button onClick={limpiar} className="btn-secundario">
             Limpiar
