@@ -39,8 +39,11 @@ export interface Clase {
   /** "HH:MM" */
   fin: string;
   modalidad: Modalidad;
-  /** Texto crudo del paréntesis del grid, ej. "(25% sincrónico 25% asincrónico)". */
-  nota?: string;
+  /**
+   * Texto de virtualidad para mostrar, ej. "25% sincrónico 25% asincrónico" o
+   * "sincrónico". Ausente cuando es presencial (no se muestra nada).
+   */
+  virtualidad?: string;
 }
 
 /**
