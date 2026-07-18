@@ -1337,11 +1337,11 @@
       ]
     },
     {
-      "id": "esi-3-veronelli-mañana",
+      "id": "esi-3-opcion-a-veronelli-mañana",
       "materiaId": "esi",
       "turno": "mañana",
       "anio": 3,
-      "comision": null,
+      "comision": "Opción A",
       "docente": "Veronelli",
       "clases": [
         {
@@ -1349,7 +1349,17 @@
           "inicio": "10:25",
           "fin": "11:45",
           "modalidad": "presencial"
-        },
+        }
+      ]
+    },
+    {
+      "id": "esi-3-opcion-b-veronelli-mañana",
+      "materiaId": "esi",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": "Opción B",
+      "docente": "Veronelli",
+      "clases": [
         {
           "dia": 4,
           "inicio": "11:05",
@@ -1359,23 +1369,33 @@
       ]
     },
     {
-      "id": "esi-3-accardo-vespertino",
+      "id": "esi-3-opcion-c-accardo-vespertino",
       "materiaId": "esi",
       "turno": "vespertino",
       "anio": 3,
-      "comision": null,
+      "comision": "Opción C",
+      "docente": "Accardo",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "18:00",
+          "fin": "19:20",
+          "modalidad": "presencial"
+        }
+      ]
+    },
+    {
+      "id": "esi-3-opcion-d-accardo-vespertino",
+      "materiaId": "esi",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": "Opción D",
       "docente": "Accardo",
       "clases": [
         {
           "dia": 2,
           "inicio": "18:40",
           "fin": "20:00",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 5,
-          "inicio": "18:00",
-          "fin": "19:20",
           "modalidad": "presencial"
         }
       ]
@@ -1661,11 +1681,11 @@
       ]
     },
     {
-      "id": "sujetos-educacion-2-3-rivarola-vespertino",
+      "id": "sujetos-educacion-2-3-opcion-a-rivarola-vespertino",
       "materiaId": "sujetos-educacion-2",
       "turno": "vespertino",
       "anio": 3,
-      "comision": null,
+      "comision": "Opción A",
       "docente": "Rivarola",
       "clases": [
         {
