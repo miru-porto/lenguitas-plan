@@ -23,7 +23,7 @@ Tareas:
 import json
 import re
 import unicodedata
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -45,19 +45,27 @@ def a_min(hhmm):
 
 def fusionar_clases(clases):
     """Une bloques del mismo día contiguos o solapados (quedan partidos por las
-    celdas combinadas del grid). Si alguna parte ocupa franja (no asincrónica),
-    el bloque resultante ocupa franja."""
+    celdas combinadas del grid). La modalidad del bloque resultante:
+    todas asincrónicas -> asincrónica ; todas iguales -> esa ; mezcla -> bimodal
+    (así, si alguna parte ocupa franja, el bloque ocupa franja)."""
     out = []
     for cl in sorted(clases, key=lambda x: (x["dia"], a_min(x["inicio"]), a_min(x["fin"]))):
         prev = out[-1] if out else None
         if prev and prev["dia"] == cl["dia"] and a_min(cl["inicio"]) <= a_min(prev["fin"]):
             if a_min(cl["fin"]) > a_min(prev["fin"]):
                 prev["fin"] = cl["fin"]
-            if cl["modalidad"] != "asincronico":
-                prev["modalidad"] = cl["modalidad"]
+            prev["_mods"].append(cl["modalidad"])
             prev["nota"] = prev.get("nota") or cl.get("nota")
         else:
-            out.append(dict(cl))
+            nuevo = dict(cl)
+            nuevo["_mods"] = [cl["modalidad"]]
+            out.append(nuevo)
+    for b in out:
+        mods = set(b.pop("_mods"))
+        if len(mods) == 1:
+            b["modalidad"] = mods.pop()
+        else:
+            b["modalidad"] = "bimodal"
     return out
 
 
@@ -145,6 +153,23 @@ def main():
             ] if x
         )
         salida.append(cat)
+
+    # Cátedras sin docente: suele ser una franja que perdió el nombre en el grid.
+    # Si hay una única hermana con docente (misma materia/turno/año/comisión), se funde ahí.
+    grupos = defaultdict(list)
+    for c in salida:
+        grupos[(c["turno"], c["anio"], c["comision"], c["materiaId"])].append(c)
+    resuelta = []
+    for cats in grupos.values():
+        con = [c for c in cats if c["docente"]]
+        sin = [c for c in cats if not c["docente"]]
+        if sin and len(con) == 1:
+            for s in sin:
+                con[0]["clases"] = fusionar_clases(con[0]["clases"] + s["clases"])
+            resuelta.extend(con)
+        else:
+            resuelta.extend(cats)
+    salida = resuelta
 
     salida.sort(key=lambda c: (c["anio"], c["materiaId"], c["turno"], str(c["comision"]), c["docente"] or ""))
 
