@@ -121,6 +121,11 @@ def main():
         materia = materias[materia_id]
         anio = com["anio"] if com["anio"] is not None else materia["anio"]
         comision = com["comision"]
+        # "(Opción A)" en el nombre del grid = oferta alternativa: cada opción es su
+        # propia cátedra (el estudiante elige una), no se funden por docente.
+        m_op = re.search(r"\(Opci[oó]n\s+([A-Za-z0-9]+)\)", nombre_crudo)
+        if m_op:
+            comision = f"Opción {m_op.group(1).upper()}"
 
         # Cada clase se rutea a la cátedra de su docente.
         for cl in com["clases"]:
