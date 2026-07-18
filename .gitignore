@@ -31,3 +31,6 @@ FIUBA-Plan/
 __pycache__/
 *.pyc
 .venv/
+
+# Borrador intermedio de extracción (se regenera con scripts/extract_horarios.py)
+data/horarios.raw.json

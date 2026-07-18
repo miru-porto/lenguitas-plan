@@ -112,10 +112,108 @@ def hora_de_fila(col0: str):
     return None
 
 
+# Espacios curriculares a los que se asocia un Trabajo de Campo (orden: más largo primero).
+ESPACIOS_TDC = [
+    "Sistema y Política Educativa",
+    "Instituciones Educativas",
+    "Psicología Educacional",
+    "Didáctica General",
+    "Pedagogía",
+]
+
+
+def parsear_celda_tdc(texto: str):
+    """'TRABAJO DE CAMPO en Didáctica General Belser (ASINCRÓNICO)'
+    -> (espacio, docente). Devuelve None si la celda no es un Trabajo de Campo."""
+    plano = " ".join(texto.split())
+    if "TRABAJO DE CAMPO" not in plano:
+        return None
+    plano = re.sub(r"\(asincr[oó]nico\)", "", plano, flags=re.IGNORECASE).strip()
+    resto = re.sub(r"^TRABAJO DE CAMPO\s+(?:en|de)\s+", "", plano, flags=re.IGNORECASE)
+    for esp in ESPACIOS_TDC:
+        if resto.lower().startswith(esp.lower()):
+            docente = resto[len(esp):].strip() or None
+            return esp, docente
+    return resto, None
+
+
+def procesar_trabajo_campo(page, turno):
+    """Parser dedicado a las páginas 'Horarios TRABAJO DE CAMPO'.
+    Cada oferta = un espacio curricular + docente, siempre asincrónica."""
+    tablas = page.extract_tables()
+    if not tablas:
+        return []
+    tabla = tablas[0]
+    col_day = mapa_columnas(tabla[0])
+
+    bloques = []
+    for c, dia in col_day.items():
+        actual = None
+        for r in range(1, len(tabla)):
+            fila = tabla[r]
+            horas = hora_de_fila(fila[0])
+            celda = fila[c] if c < len(fila) else None
+            parsed = parsear_celda_tdc(celda) if celda else None
+            if not horas or not parsed:
+                if actual:
+                    bloques.append(actual)
+                    actual = None
+                continue
+            espacio, docente = parsed
+            etiqueta = (espacio, docente, dia)
+            if actual and actual["_etq"] == etiqueta:
+                actual["fin"] = horas[1]
+            else:
+                if actual:
+                    bloques.append(actual)
+                actual = {
+                    "_etq": etiqueta,
+                    "espacio": espacio,
+                    "docente": docente,
+                    "dia": dia,
+                    "inicio": horas[0],
+                    "fin": horas[1],
+                }
+        if actual:
+            bloques.append(actual)
+
+    comisiones = {}
+    for b in bloques:
+        etiqueta = b["espacio"] + (f" — {b['docente']}" if b["docente"] else "")
+        key = (turno, etiqueta)
+        com = comisiones.setdefault(
+            key,
+            {
+                "id": slug(f"trabajo-de-campo {etiqueta} {turno}"),
+                "materiaId": "trabajo-de-campo",
+                "materiaNombre": "TRABAJO DE CAMPO",
+                "turno": turno,
+                "anio": None,  # lo completa reconcile desde el catálogo
+                "comision": etiqueta,
+                "clases": [],
+            },
+        )
+        com["clases"].append(
+            {
+                "dia": b["dia"],
+                "inicio": b["inicio"],
+                "fin": b["fin"],
+                "docente": b["docente"],
+                "modalidad": "asincronico",
+                "nota": f"Trabajo de Campo en {b['espacio']}",
+            }
+        )
+    for com in comisiones.values():
+        com["clases"].sort(key=lambda x: (x["dia"], x["inicio"]))
+    return list(comisiones.values())
+
+
 def procesar_pagina(page, turno, warns):
     texto = page.extract_text() or ""
     if "GRILLA DE PORCENTAJES" in texto:
         return []
+    if "TRABAJO DE CAMPO" in (texto.strip().splitlines()[0] if texto.strip() else ""):
+        return procesar_trabajo_campo(page, turno)
     anio, comision, titulo = parsear_titulo(texto)
 
     tablas = page.extract_tables()
@@ -226,7 +324,7 @@ def main():
         "comisiones": todas,
     }
 
-    destino = ROOT / "data" / "horarios.json"
+    destino = ROOT / "data" / "horarios.raw.json"
     destino.parent.mkdir(exist_ok=True)
     destino.write_text(
         json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8"
