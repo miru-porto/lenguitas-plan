@@ -179,17 +179,17 @@ def procesar_trabajo_campo(page, turno):
 
     comisiones = {}
     for b in bloques:
-        etiqueta = b["espacio"] + (f" — {b['docente']}" if b["docente"] else "")
-        key = (turno, etiqueta)
+        # La comisión es el espacio curricular; el docente lo separa el split de reconcile.
+        key = (turno, b["espacio"], b["docente"])
         com = comisiones.setdefault(
             key,
             {
-                "id": slug(f"trabajo-de-campo {etiqueta} {turno}"),
+                "id": slug(f"trabajo-de-campo {b['espacio']} {b['docente']} {turno}"),
                 "materiaId": "trabajo-de-campo",
                 "materiaNombre": "TRABAJO DE CAMPO",
                 "turno": turno,
                 "anio": None,  # lo completa reconcile desde el catálogo
-                "comision": etiqueta,
+                "comision": b["espacio"],
                 "clases": [],
             },
         )
