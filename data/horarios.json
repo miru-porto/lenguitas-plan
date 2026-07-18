@@ -842,23 +842,6 @@
       ]
     },
     {
-      "id": "didactica-especifica-1-2-mañana",
-      "materiaId": "didactica-especifica-1",
-      "turno": "mañana",
-      "anio": 2,
-      "comision": null,
-      "docente": null,
-      "clases": [
-        {
-          "dia": 4,
-          "inicio": "11:45",
-          "fin": "12:25",
-          "modalidad": "presencial",
-          "nota": "1° Cuat 2027: Did Esp 2"
-        }
-      ]
-    },
-    {
       "id": "didactica-especifica-1-2-chervonko-mañana",
       "materiaId": "didactica-especifica-1",
       "turno": "mañana",
@@ -869,8 +852,8 @@
         {
           "dia": 4,
           "inicio": "09:45",
-          "fin": "11:45",
-          "modalidad": "presencial",
+          "fin": "12:25",
+          "modalidad": "bimodal",
           "nota": "25% sincrónica 25% asincrónica"
         }
       ]
@@ -1165,7 +1148,7 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "25% sincrónica 25% asincrónica"
         }
       ]
@@ -1367,7 +1350,7 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "Prox: Creat 1) (sincrónica"
         }
       ]
@@ -1643,7 +1626,7 @@
           "dia": 2,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "25% sincrónico 50% asincrónico"
         }
       ]
@@ -1694,7 +1677,7 @@
           "dia": 3,
           "inicio": "09:45",
           "fin": "12:25",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "25% sincrónico 25% asincrónico"
         }
       ]
@@ -1762,7 +1745,7 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "25% sincrónico 25% asincrónico"
         }
       ]
@@ -2031,7 +2014,7 @@
           "dia": 3,
           "inicio": "07:45",
           "fin": "09:45",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "25% sincrónico 25% asincrónico"
         }
       ]
@@ -2132,7 +2115,7 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "sincrónico"
         }
       ]
@@ -2368,7 +2351,7 @@
           "dia": 5,
           "inicio": "07:45",
           "fin": "09:45",
-          "modalidad": "presencial",
+          "modalidad": "bimodal",
           "nota": "50% sincrónico, 25% asincrónico"
         }
       ]
