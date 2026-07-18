@@ -17,8 +17,8 @@ describe("porcentajeCarrera", () => {
     expect(porcentajeCarrera({}, lista)).toBe(0);
   });
 
-  it("cada año pesa igual: todo 1º año = 50% (con 2 años)", () => {
-    expect(porcentajeCarrera(ap("a1", "a2"), lista)).toBe(50);
+  it("por cantidad de materias: 2 de 3 aprobadas = 67%", () => {
+    expect(porcentajeCarrera(ap("a1", "a2"), lista)).toBe(67);
   });
 
   it("toda la carrera aprobada = 100%", () => {
