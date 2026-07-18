@@ -1,0 +1,2249 @@
+{
+  "materias": [
+    {
+      "id": "lengua-inglesa-1",
+      "nombre": "Lengua Inglesa 1",
+      "anio": 1,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 1
+    },
+    {
+      "id": "gramatica-1",
+      "nombre": "Gramática Inglesa 1",
+      "anio": 1,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 2
+    },
+    {
+      "id": "fonologia-1",
+      "nombre": "Fonología y Práctica de Laboratorio 1",
+      "anio": 1,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 3
+    },
+    {
+      "id": "taller-1",
+      "nombre": "Taller 1",
+      "anio": 1,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 4
+    },
+    {
+      "id": "taller-2",
+      "nombre": "Taller 2",
+      "anio": 1,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          },
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          },
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 5
+    },
+    {
+      "id": "pedagogia",
+      "nombre": "Pedagogía",
+      "anio": 1,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 6
+    },
+    {
+      "id": "didactica-general",
+      "nombre": "Didáctica General",
+      "anio": 1,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 7
+    },
+    {
+      "id": "psicologia-educacional",
+      "nombre": "Psicología Educacional",
+      "anio": 1,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 8
+    },
+    {
+      "id": "taller-nuevas-tecnologias",
+      "nombre": "Taller de Nuevas Tecnologías",
+      "anio": 1,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 9
+    },
+    {
+      "id": "tleo",
+      "nombre": "Taller de Lectura, Escritura y Oralidad (TLEO)",
+      "anio": 1,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 10
+    },
+    {
+      "id": "lengua-inglesa-2",
+      "nombre": "Lengua Inglesa 2",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "final"
+          },
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "final"
+          },
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 11
+    },
+    {
+      "id": "gramatica-2",
+      "nombre": "Gramática Inglesa 2",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 12
+    },
+    {
+      "id": "fonologia-2",
+      "nombre": "Fonología y Práctica de Laboratorio 2",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 13
+    },
+    {
+      "id": "cultura-1",
+      "nombre": "Cultura de los Pueblos de Habla Inglesa 1",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 14
+    },
+    {
+      "id": "didactica-especifica-1",
+      "nombre": "Didáctica Específica 1",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 15
+    },
+    {
+      "id": "didactica-especifica-2",
+      "nombre": "Didáctica Específica 2",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 16
+    },
+    {
+      "id": "creatividad-1",
+      "nombre": "Creatividad 1",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 17
+    },
+    {
+      "id": "taller-3",
+      "nombre": "Taller 3",
+      "anio": 2,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 18
+    },
+    {
+      "id": "taller-4",
+      "nombre": "Taller 4",
+      "anio": 2,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 19
+    },
+    {
+      "id": "sujetos-educacion-1",
+      "nombre": "Sujetos de la Educación 1",
+      "anio": 2,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 20
+    },
+    {
+      "id": "sistemas-politica-educativa",
+      "nombre": "Sistema y Política Educativa",
+      "anio": 2,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 21
+    },
+    {
+      "id": "metodologia-investigacion",
+      "nombre": "Metodología de la Investigación",
+      "anio": 2,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 22
+    },
+    {
+      "id": "esi",
+      "nombre": "Educación Sexual Integral (ESI)",
+      "anio": 2,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 23
+    },
+    {
+      "id": "lengua-inglesa-3",
+      "nombre": "Lengua Inglesa 3",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "final"
+          },
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "final"
+          },
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 24
+    },
+    {
+      "id": "linguistica",
+      "nombre": "Lingüística",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 25
+    },
+    {
+      "id": "fonologia-3",
+      "nombre": "Fonología y Práctica de Laboratorio 3",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 26
+    },
+    {
+      "id": "literatura-1",
+      "nombre": "Literatura en Lengua Inglesa 1",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 27
+    },
+    {
+      "id": "literatura-2",
+      "nombre": "Literatura en Lengua Inglesa 2",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 28
+    },
+    {
+      "id": "sujetos-educacion-2",
+      "nombre": "Sujetos de la Educación 2",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "psicologia-educacional",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 29
+    },
+    {
+      "id": "creatividad-2",
+      "nombre": "Creatividad 2",
+      "anio": 3,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "creatividad-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "creatividad-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 30
+    },
+    {
+      "id": "taller-5",
+      "nombre": "Taller 5 (de Inicial y Primaria)",
+      "anio": 3,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-4",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "creatividad-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-4",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "creatividad-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 31
+    },
+    {
+      "id": "residencia-inicial-primario",
+      "nombre": "Residencia para el Nivel Inicial y Primario",
+      "anio": 3,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-5",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "creatividad-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "sujetos-educacion-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-nuevas-tecnologias",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-5",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "creatividad-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "sujetos-educacion-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "taller-nuevas-tecnologias",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "nota": "Seminario de Investigación Acción 1 en cursada simultánea obligatoria.",
+      "idExterno": 32
+    },
+    {
+      "id": "seminario-investigacion-accion-1",
+      "nombre": "Seminario de Investigación Acción 1",
+      "anio": 3,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "nota": "Se cursa en simultáneo con la Residencia de Nivel Inicial y Primario; para aprobar hay que aprobar todas las instancias de esa Residencia.",
+      "idExterno": 33
+    },
+    {
+      "id": "informatica-ensenanza",
+      "nombre": "Informática para la Enseñanza",
+      "anio": 3,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-nuevas-tecnologias",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-nuevas-tecnologias",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 34
+    },
+    {
+      "id": "instituciones-educativas",
+      "nombre": "Instituciones Educativas",
+      "anio": 3,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "didactica-general",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "pedagogia",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 35
+    },
+    {
+      "id": "saberes-ludicos",
+      "nombre": "Saberes Lúdicos, Corporales y Motores",
+      "anio": 3,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 36
+    },
+    {
+      "id": "trabajo-de-campo",
+      "nombre": "Trabajo de Campo",
+      "anio": 3,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "metodologia-investigacion",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "metodologia-investigacion",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "nota": "Debe cursarse posteriormente a UNO de: Didáctica General, Sistemas y Política Educativa, Psicología Educacional, Pedagogía o Instituciones Educativas.",
+      "idExterno": 37
+    },
+    {
+      "id": "lengua-inglesa-4",
+      "nombre": "Lengua Inglesa 4",
+      "anio": 4,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 38
+    },
+    {
+      "id": "cultura-2",
+      "nombre": "Cultura de los Pueblos de Habla Inglesa 2",
+      "anio": 4,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 39
+    },
+    {
+      "id": "literatura-3",
+      "nombre": "Literatura en Lengua Inglesa 3",
+      "anio": 4,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 40
+    },
+    {
+      "id": "analisis-redaccion-textos",
+      "nombre": "Análisis y Redacción de Textos",
+      "anio": 4,
+      "campo": "CFE",
+      "regimen": "anual",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 41
+    },
+    {
+      "id": "teatro",
+      "nombre": "Teatro",
+      "anio": 4,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 42
+    },
+    {
+      "id": "taller-6",
+      "nombre": "Taller 6 (de Nivel Medio)",
+      "anio": 4,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-5",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "informatica-ensenanza",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-5",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "informatica-ensenanza",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 43
+    },
+    {
+      "id": "residencia-nivel-medio",
+      "nombre": "Residencia para el Nivel Medio",
+      "anio": 4,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-6",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "sujetos-educacion-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "linguistica",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-6",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "sujetos-educacion-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "linguistica",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "nota": "Seminario de Investigación Acción 2 en cursada simultánea obligatoria.",
+      "idExterno": 44
+    },
+    {
+      "id": "seminario-investigacion-accion-2",
+      "nombre": "Seminario de Investigación Acción 2",
+      "anio": 4,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "nota": "Se cursa en simultáneo con la Residencia de Nivel Medio; para aprobar hay que aprobar todas las instancias de esa Residencia.",
+      "idExterno": 45
+    },
+    {
+      "id": "nuevos-escenarios",
+      "nombre": "Nuevos Escenarios, Cultura, Tecnología y Subjetividad",
+      "anio": 4,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "instituciones-educativas",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "instituciones-educativas",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 46
+    },
+    {
+      "id": "trabajo-profesionalizacion-docente",
+      "nombre": "Trabajo / Profesionalización Docente",
+      "anio": 4,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "instituciones-educativas",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "instituciones-educativas",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 47
+    },
+    {
+      "id": "filosofia",
+      "nombre": "Filosofía",
+      "anio": 4,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 48
+    },
+    {
+      "id": "tic-aplicadas",
+      "nombre": "TIC Aplicadas",
+      "anio": 4,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "informatica-ensenanza",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "informatica-ensenanza",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 49
+    },
+    {
+      "id": "ab-initio-1",
+      "nombre": "Portugués Ab Initio 1",
+      "anio": 5,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [],
+      "paraAprobar": [],
+      "idExterno": 50
+    },
+    {
+      "id": "ab-initio-2",
+      "nombre": "Portugués Ab Initio 2",
+      "anio": 5,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "ab-initio-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "ab-initio-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 51
+    },
+    {
+      "id": "cultura-3",
+      "nombre": "Cultura de los Pueblos de Habla Inglesa 3",
+      "anio": 5,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-2",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 52
+    },
+    {
+      "id": "literatura-4",
+      "nombre": "Literatura en Lengua Inglesa 4",
+      "anio": 5,
+      "campo": "CFE",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-3",
+            "nivel": "final"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "literatura-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "cultura-1",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 53
+    },
+    {
+      "id": "residencia-nivel-superior",
+      "nombre": "Residencia para el Nivel Superior",
+      "anio": 5,
+      "campo": "CFPP",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-6",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "sujetos-educacion-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "linguistica",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-6",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "didactica-especifica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "gramatica-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "fonologia-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "sujetos-educacion-2",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "lengua-inglesa-3",
+            "nivel": "aprobada"
+          }
+        ],
+        [
+          {
+            "materiaId": "linguistica",
+            "nivel": "final"
+          }
+        ]
+      ],
+      "idExterno": 54
+    },
+    {
+      "id": "taller-musica",
+      "nombre": "Taller de Música",
+      "anio": 5,
+      "campo": "CFG",
+      "regimen": "cuatrimestral",
+      "paraCursar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "paraAprobar": [
+        [
+          {
+            "materiaId": "taller-2",
+            "nivel": "aprobada"
+          }
+        ]
+      ],
+      "idExterno": 55
+    }
+  ]
+}
