@@ -63,8 +63,15 @@ def fusionar_clases(clases):
             out.append(nuevo)
     for b in out:
         mods = set(b.pop("_mods"))
-        if len(mods) == 1:
-            b["modalidad"] = mods.pop()
+        no_pres = mods - {"presencial"}
+        if not no_pres:
+            b["modalidad"] = "presencial"
+        elif no_pres == {"asincronico"}:
+            # Sólo asincrónica; si además hay franjas presenciales, el bloque ocupa -> bimodal.
+            b["modalidad"] = "asincronico" if mods == {"asincronico"} else "bimodal"
+        elif len(no_pres) == 1:
+            # Una sola modalidad con nota: la nota aplica a todo el bloque.
+            b["modalidad"] = no_pres.pop()
         else:
             b["modalidad"] = "bimodal"
     return out
