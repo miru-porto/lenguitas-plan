@@ -84,10 +84,19 @@ export type Requisitos = Clausula[];
 export interface Materia {
   id: string;
   nombre: string;
+  /** Año del plan de estudios (1..5). */
+  anio: number;
   campo?: Campo;
   regimen?: Regimen;
   paraCursar: Requisitos;
   paraAprobar: Requisitos;
+  /** Nota informativa (ej. cursada simultánea obligatoria). */
+  nota?: string;
+  /**
+   * Id numérico de la materia en el proyecto "rate my prof" del profesorado.
+   * Sirve para cruzar cátedras (materia + profe) entre ambos proyectos.
+   */
+  idExterno?: number;
 }
 
 // ---------------------------------------------------------------------------
