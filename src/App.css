@@ -218,6 +218,9 @@ button:hover {
   font-size: 0.78rem;
   color: var(--tenue);
 }
+.catedra-virt {
+  font-style: italic;
+}
 
 /* Historial */
 .historial-ayuda {
@@ -319,6 +322,11 @@ button:hover {
 }
 .clase-hora {
   opacity: 0.75;
+}
+.clase-virt {
+  opacity: 0.8;
+  font-style: italic;
+  font-size: 0.68rem;
 }
 .clase-choca {
   outline: 2px solid var(--choca);

@@ -98,6 +98,13 @@ export function SelectorMaterias({
                               </span>
                               <span className="catedra-horario">
                                 {resumenHorario(c)}
+                                {(() => {
+                                  const v = c.clases.find((cl) => cl.virtualidad)
+                                    ?.virtualidad;
+                                  return v ? (
+                                    <span className="catedra-virt"> · {v}</span>
+                                  ) : null;
+                                })()}
                               </span>
                             </label>
                           </li>

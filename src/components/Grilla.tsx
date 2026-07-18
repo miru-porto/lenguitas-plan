@@ -90,7 +90,7 @@ export function Grilla({ seleccionadas, conflictos, onQuitar }: Props) {
                       title={`${nombreDe(x.catedra.materiaId)}\n${
                         x.catedra.docente ?? ""
                       }\n${x.clase.inicio}–${x.clase.fin}${
-                        async ? " (asincrónico)" : ""
+                        x.clase.virtualidad ? ` (${x.clase.virtualidad})` : ""
                       }`}
                       onClick={() => onQuitar(x.catedra.id)}
                     >
@@ -99,6 +99,9 @@ export function Grilla({ seleccionadas, conflictos, onQuitar }: Props) {
                       <span className="clase-hora">
                         {x.clase.inicio}–{x.clase.fin}
                       </span>
+                      {x.clase.virtualidad && (
+                        <span className="clase-virt">({x.clase.virtualidad})</span>
+                      )}
                     </div>
                   );
                 })}
