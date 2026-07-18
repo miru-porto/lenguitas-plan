@@ -92,6 +92,11 @@ button:hover {
   .app-cuerpo {
     grid-template-columns: 1fr;
   }
+  /* En una sola columna el panel va arriba de la grilla: sin sticky. */
+  .panel {
+    position: static;
+    max-height: 70vh;
+  }
 }
 
 .panel {
@@ -101,7 +106,11 @@ button:hover {
   /* Sin padding-top: lo aporta la barra de solapas sticky (evita que el contenido
      se cuele por arriba al scrollear). */
   padding: 0 0.8rem 0.8rem;
-  max-height: 80vh;
+  /* Acompaña el scroll de la página (útil con grillas nocturnas altas). */
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+  max-height: calc(100vh - 2rem);
   overflow-y: auto;
 }
 .panel-tabs {

@@ -18,7 +18,7 @@ export function Historial({ historial, onSet, onSetMuchas }: Props) {
     <div className="historial">
       <p className="historial-ayuda">
         Marcá lo que ya cursaste o aprobaste. Eso habilita las materias que
-        dependen de esas correlativas. (Tocá un botón activo para desmarcar.)
+        dependen de esas correlativas.
       </p>
       {anios.map((anio) => {
         const idsAnio = materias

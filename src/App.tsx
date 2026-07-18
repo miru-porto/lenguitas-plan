@@ -45,7 +45,7 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <div>
-          <h1>Lenguitas-Plan</h1>
+          <h1>Lenguitas Plan</h1>
           <p className="app-sub">
             Armá tu cuatrimestre en el Profesorado de Inglés sin superponer materias.
           </p>
