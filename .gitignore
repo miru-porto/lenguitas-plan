@@ -23,8 +23,9 @@ Thumbs.db
 # Claude Code (no se sube)
 .claude/
 
-# Material fuente (PDFs de la institución) y proyecto de referencia
+# Material fuente (PDFs / Docs de la institución) y proyecto de referencia
 *.pdf
+INGLÉS*.md
 FIUBA-Plan/
 
 # Herramientas de autoría (Python)
