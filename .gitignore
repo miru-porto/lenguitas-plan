@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code (no se sube)
+.claude/
+
+# Material fuente (PDFs de la institución) y proyecto de referencia
+*.pdf
+FIUBA-Plan/
+
+# Herramientas de autoría (Python)
+__pycache__/
+*.pyc
+.venv/
