@@ -1,0 +1,3017 @@
+{
+  "_nota": "Borrador generado por scripts/extract_horarios.py. Revisar a mano.",
+  "generadoDe": [
+    "INGLÉS TM - 2do cuatrimestre 2026.pdf",
+    "INGLÉS TV - 2do cuatrimestre 2026.pdf"
+  ],
+  "materiasDetectadas": [
+    {
+      "id": "analisis-y-redaccion-de-textos",
+      "nombre": "ANÁLISIS Y REDACCIÓN DE TEXTOS"
+    },
+    {
+      "id": "creativi-dad-2",
+      "nombre": "CREATIVI DAD 2"
+    },
+    {
+      "id": "creatividad-1",
+      "nombre": "CREATIVIDAD 1"
+    },
+    {
+      "id": "creatividad-2",
+      "nombre": "CREATIVIDAD 2"
+    },
+    {
+      "id": "cultura-de-los-pueblos-de-habla-inglesa-1",
+      "nombre": "CULTURA DE LOS PUEBLOS DE HABLA INGLESA 1"
+    },
+    {
+      "id": "cultura-de-los-pueblos-de-habla-inglesa-3",
+      "nombre": "CULTURA DE LOS PUEBLOS DE HABLA INGLESA 3"
+    },
+    {
+      "id": "cultura-inglesa-1",
+      "nombre": "CULTURA INGLESA 1"
+    },
+    {
+      "id": "cultura-inglesa-3",
+      "nombre": "CULTURA INGLESA 3"
+    },
+    {
+      "id": "did-general",
+      "nombre": "DID. GENERAL"
+    },
+    {
+      "id": "didactica-especifica-1",
+      "nombre": "DIDÁCTICA ESPECÍFICA 1"
+    },
+    {
+      "id": "didactica-especifica-2",
+      "nombre": "DIDÁCTICA ESPECÍFICA 2"
+    },
+    {
+      "id": "didactica-general",
+      "nombre": "DIDÁCTICA GENERAL"
+    },
+    {
+      "id": "esi",
+      "nombre": "ESI"
+    },
+    {
+      "id": "filosofia",
+      "nombre": "FILOSOFÍA"
+    },
+    {
+      "id": "fonologia-y-practica-de-lab",
+      "nombre": "FONOLOGÍA Y PRÁCTICA DE LAB."
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-1",
+      "nombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 1"
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-2",
+      "nombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 2"
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-3",
+      "nombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 3"
+    },
+    {
+      "id": "gramatica-1",
+      "nombre": "GRAMÁTICA 1"
+    },
+    {
+      "id": "gramatica-2",
+      "nombre": "GRAMÁTICA 2"
+    },
+    {
+      "id": "informatica",
+      "nombre": "INFORMÁTICA"
+    },
+    {
+      "id": "informatica-para-la-ensenanza",
+      "nombre": "INFORMÁTICA PARA LA ENSEÑANZA"
+    },
+    {
+      "id": "instituciones-educativas",
+      "nombre": "INSTITUCIONES EDUCATIVAS"
+    },
+    {
+      "id": "invest-accion-2",
+      "nombre": "INVEST. ACCIÓN 2"
+    },
+    {
+      "id": "las-tic-aplicadas",
+      "nombre": "LAS TIC APLICADAS"
+    },
+    {
+      "id": "lectura-escritura-y-oralidad",
+      "nombre": "LECTURA, ESCRITURA Y ORALIDAD"
+    },
+    {
+      "id": "lengua-inglesa-1",
+      "nombre": "LENGUA INGLESA 1"
+    },
+    {
+      "id": "lengua-inglesa-2",
+      "nombre": "LENGUA INGLESA 2"
+    },
+    {
+      "id": "lengua-inglesa-3",
+      "nombre": "LENGUA INGLESA 3"
+    },
+    {
+      "id": "lengua-inglesa-4",
+      "nombre": "LENGUA INGLESA 4"
+    },
+    {
+      "id": "linguist-ica",
+      "nombre": "LINGÜÍST ICA"
+    },
+    {
+      "id": "linguistica",
+      "nombre": "LINGÜÍSTICA"
+    },
+    {
+      "id": "lit-inglesa-1",
+      "nombre": "LIT. INGLESA 1"
+    },
+    {
+      "id": "lit-lengua-inglesa-2",
+      "nombre": "LIT. LENGUA INGLESA 2"
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-2",
+      "nombre": "LITERATURA EN LENGUA INGLESA 2"
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-3",
+      "nombre": "LITERATURA EN LENGUA INGLESA 3"
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-4",
+      "nombre": "LITERATURA EN LENGUA INGLESA 4"
+    },
+    {
+      "id": "literatura-inglesa-2",
+      "nombre": "LITERATURA INGLESA 2"
+    },
+    {
+      "id": "metodologia-de-la-inv",
+      "nombre": "METODOLOGÍA DE LA INV."
+    },
+    {
+      "id": "metodologia-de-la-investigacion",
+      "nombre": "METODOLOGÍA DE LA INVESTIGACIÒN"
+    },
+    {
+      "id": "musica",
+      "nombre": "MÚSICA"
+    },
+    {
+      "id": "musica-raviolo",
+      "nombre": "MÚSICA RAVIOLO"
+    },
+    {
+      "id": "nuevas-tecnologias",
+      "nombre": "NUEVAS TECNOLOGÍAS"
+    },
+    {
+      "id": "nuevos-escenarios",
+      "nombre": "NUEVOS ESCENARIOS"
+    },
+    {
+      "id": "pedagogia",
+      "nombre": "PEDAGOGÍA"
+    },
+    {
+      "id": "portugues-ab-initio-2",
+      "nombre": "PORTUGUÉS AB INITIO 2"
+    },
+    {
+      "id": "psicologia-educacional",
+      "nombre": "PSICOLOGÍA EDUCACIONAL"
+    },
+    {
+      "id": "saberes-ludicos",
+      "nombre": "SABERES LÚDICOS"
+    },
+    {
+      "id": "seminario-invest-accion-2",
+      "nombre": "SEMINARIO INVEST. ACCIÓN 2"
+    },
+    {
+      "id": "sistema-y-politica-educativa",
+      "nombre": "SISTEMA Y POLÍTICA EDUCATIVA"
+    },
+    {
+      "id": "suj-de-la-ed-2",
+      "nombre": "SUJ DE LA ED 2"
+    },
+    {
+      "id": "sujeto-de-la-ed-1",
+      "nombre": "SUJETO DE LA ED. 1"
+    },
+    {
+      "id": "sujeto-de-la-educacion-1",
+      "nombre": "SUJETO DE LA EDUCACIÓN 1"
+    },
+    {
+      "id": "sujeto-de-la-educacion-2",
+      "nombre": "SUJETO DE LA EDUCACIÓN 2"
+    },
+    {
+      "id": "taller-1",
+      "nombre": "TALLER 1"
+    },
+    {
+      "id": "taller-2",
+      "nombre": "TALLER 2"
+    },
+    {
+      "id": "taller-3",
+      "nombre": "TALLER 3"
+    },
+    {
+      "id": "taller-4",
+      "nombre": "TALLER 4"
+    },
+    {
+      "id": "taller-5",
+      "nombre": "TALLER 5"
+    },
+    {
+      "id": "taller-6",
+      "nombre": "TALLER 6"
+    },
+    {
+      "id": "teatro",
+      "nombre": "TEATRO"
+    },
+    {
+      "id": "tic-aplicadas",
+      "nombre": "TIC APLICADAS"
+    },
+    {
+      "id": "trabajo-de",
+      "nombre": "TRABAJO DE"
+    },
+    {
+      "id": "trabajo-de-campo-ambao",
+      "nombre": "TRABAJO DE CAMPO AMBAO"
+    },
+    {
+      "id": "trabajo-de-campo-bergel",
+      "nombre": "TRABAJO DE CAMPO BERGEL"
+    },
+    {
+      "id": "trabajo-de-campo-del-regno",
+      "nombre": "TRABAJO DE CAMPO DEL REGNO"
+    },
+    {
+      "id": "trabajo-de-campo-eichenbronner",
+      "nombre": "TRABAJO DE CAMPO EICHENBRONNER"
+    },
+    {
+      "id": "trabajo-de-campo-gentile",
+      "nombre": "TRABAJO DE CAMPO GENTILE"
+    },
+    {
+      "id": "trabajo-de-campo-kirsanov",
+      "nombre": "TRABAJO DE CAMPO KIRSANOV"
+    },
+    {
+      "id": "trabajo-de-campo-spina",
+      "nombre": "TRABAJO DE CAMPO SPINA"
+    },
+    {
+      "id": "trabajo-de-del-regno",
+      "nombre": "TRABAJO DE DEL REGNO"
+    },
+    {
+      "id": "trabajo-de-eichenbronner",
+      "nombre": "TRABAJO DE EICHENBRONNER"
+    },
+    {
+      "id": "trabajo-prof-docente",
+      "nombre": "TRABAJO / PROF. DOCENTE"
+    },
+    {
+      "id": "trabajo-profesionalizacion",
+      "nombre": "TRABAJO / PROFESIONALIZACIÓN"
+    },
+    {
+      "id": "trabajo-profesionalizacion-docente",
+      "nombre": "TRABAJO / PROFESIONALIZACIÓN DOCENTE"
+    }
+  ],
+  "comisiones": [
+    {
+      "id": "lengua-inglesa-1-1-A-mañana",
+      "materiaId": "lengua-inglesa-1",
+      "materiaNombre": "LENGUA INGLESA 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "07:45",
+          "fin": "12:25",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 1,
+          "inicio": "08:25",
+          "fin": "11:05",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 3,
+          "inicio": "08:25",
+          "fin": "09:45",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "taller-1-1-A-mañana",
+      "materiaId": "taller-1",
+      "materiaNombre": "TALLER 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "Bessega",
+          "modalidad": "presencial",
+          "nota": "(1° Cuat 2027: Taller 2)"
+        }
+      ]
+    },
+    {
+      "id": "lectura-escritura-y-oralidad-1-A-mañana",
+      "materiaId": "lectura-escritura-y-oralidad",
+      "materiaNombre": "LECTURA, ESCRITURA Y ORALIDAD",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Querales",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "psicologia-educacional-1-A-mañana",
+      "materiaId": "psicologia-educacional",
+      "materiaNombre": "PSICOLOGÍA EDUCACIONAL",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Eichenbronner",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-1-1-A-mañana",
+      "materiaId": "fonologia-y-practica-de-lab-1",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Pérez Ponsa",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Massolo",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "didactica-general-1-A-mañana",
+      "materiaId": "didactica-general",
+      "materiaNombre": "DIDÁCTICA GENERAL",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Spina",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "gramatica-1-1-A-mañana",
+      "materiaId": "gramatica-1",
+      "materiaNombre": "GRAMÁTICA 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Mortoro",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Rossell",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lectura-escritura-y-oralidad-1-B-mañana",
+      "materiaId": "lectura-escritura-y-oralidad",
+      "materiaNombre": "LECTURA, ESCRITURA Y ORALIDAD",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Kandel",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "gramatica-1-1-B-mañana",
+      "materiaId": "gramatica-1",
+      "materiaNombre": "GRAMÁTICA 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Fernandez, V.",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-1-1-B-mañana",
+      "materiaId": "fonologia-y-practica-de-lab-1",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Pérez Ponsa",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Perez Ponsa",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-1-1-B-mañana",
+      "materiaId": "lengua-inglesa-1",
+      "materiaNombre": "LENGUA INGLESA 1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "11:05",
+          "fin": "11:45",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "09:05",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "09:05",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "11:05",
+          "fin": "11:45",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "psicologia-educacional-1-B-mañana",
+      "materiaId": "psicologia-educacional",
+      "materiaNombre": "PSICOLOGÍA EDUCACIONAL",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Eichenbronner",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "pedagogia-1-B-mañana",
+      "materiaId": "pedagogia",
+      "materiaNombre": "PEDAGOGÍA",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Del Regno",
+          "modalidad": "presencial",
+          "nota": "(1er Cuat 2027: Did. General)"
+        }
+      ]
+    },
+    {
+      "id": "did-general-1-B-mañana",
+      "materiaId": "did-general",
+      "materiaNombre": "DID. GENERAL",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "08:25",
+          "docente": "Belser 1er Cuat 2027: Pedagogíal",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "didactica-general-1-B-mañana",
+      "materiaId": "didactica-general",
+      "materiaNombre": "DIDÁCTICA GENERAL",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "08:25",
+          "fin": "10:25",
+          "docente": "Belser",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "taller-2-1-B-mañana",
+      "materiaId": "taller-2",
+      "materiaNombre": "TALLER 2",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Jaschek",
+          "modalidad": "presencial",
+          "nota": "(1er Cuat 2027: Taller 1)"
+        },
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Bessega",
+          "modalidad": "presencial",
+          "nota": "(1er Cuat 2027: Taller 1)"
+        }
+      ]
+    },
+    {
+      "id": "nuevas-tecnologias-1-B-mañana",
+      "materiaId": "nuevas-tecnologias",
+      "materiaNombre": "NUEVAS TECNOLOGÍAS",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Olivera",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-2-2-mañana",
+      "materiaId": "fonologia-y-practica-de-lab-2",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 2",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Carteau",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 1,
+          "inicio": "07:45",
+          "fin": "11:05",
+          "docente": "Luccon",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-2-2-mañana",
+      "materiaId": "lengua-inglesa-2",
+      "materiaNombre": "LENGUA INGLESA 2",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "11:05",
+          "fin": "12:25",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "08:25",
+          "fin": "12:25",
+          "docente": "Tordoni",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "gramatica-2-2-mañana",
+      "materiaId": "gramatica-2",
+      "materiaNombre": "GRAMÁTICA 2",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "Banfi",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónica, 25% asincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "taller-3-2-mañana",
+      "materiaId": "taller-3",
+      "materiaNombre": "TALLER 3",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "09:45",
+          "fin": "11:45",
+          "docente": "Bessega",
+          "modalidad": "bimodal",
+          "nota": "(1° Cuat 2027: Taller 4) (25% sincrónica, 25% asincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "didactica-especifica-2-2-mañana",
+      "materiaId": "didactica-especifica-2",
+      "materiaNombre": "DIDÁCTICA ESPECÍFICA 2",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "09:45",
+          "fin": "11:45",
+          "docente": "Longobardi",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "11:45",
+          "fin": "12:25",
+          "docente": "Longobardi",
+          "modalidad": "presencial",
+          "nota": "(1er Cuat 2027: Did Específica 1)"
+        }
+      ]
+    },
+    {
+      "id": "sujeto-de-la-ed-1-2-mañana",
+      "materiaId": "sujeto-de-la-ed-1",
+      "materiaNombre": "SUJETO DE LA ED. 1",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Ferrari",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónica 25% asincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "taller-4-2-mañana",
+      "materiaId": "taller-4",
+      "materiaNombre": "TALLER 4",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Castino",
+          "modalidad": "presencial",
+          "nota": "(1er Cuat 2027: Taller 3)"
+        }
+      ]
+    },
+    {
+      "id": "cultura-inglesa-1-2-mañana",
+      "materiaId": "cultura-inglesa-1",
+      "materiaNombre": "CULTURA INGLESA 1",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "08:25",
+          "fin": "09:45",
+          "docente": "Fernández Armendáriz",
+          "modalidad": "sincronico",
+          "nota": "(sincrónica)"
+        },
+        {
+          "dia": 4,
+          "inicio": "09:45",
+          "fin": "10:25",
+          "docente": "F. Armendáriz",
+          "modalidad": "sincronico",
+          "nota": "(sincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "didactica-especifica-1-2-mañana",
+      "materiaId": "didactica-especifica-1",
+      "materiaNombre": "DIDÁCTICA ESPECÍFICA 1",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Chervonko",
+          "modalidad": "bimodal",
+          "nota": "25% sincrónica 25% asincrónica"
+        }
+      ]
+    },
+    {
+      "id": "metodologia-de-la-inv-2-mañana",
+      "materiaId": "metodologia-de-la-inv",
+      "materiaNombre": "METODOLOGÍA DE LA INV.",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Villarejo",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónica 25% asincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-3-3-mañana",
+      "materiaId": "lengua-inglesa-3",
+      "materiaNombre": "LENGUA INGLESA 3",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "07:45",
+          "fin": "11:45",
+          "docente": "Caligaris",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "esi-3-mañana",
+      "materiaId": "esi",
+      "materiaNombre": "ESI",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "10:25",
+          "fin": "11:45",
+          "docente": "Veronelli",
+          "modalidad": "presencial",
+          "nota": "(Opción A)"
+        },
+        {
+          "dia": 4,
+          "inicio": "11:05",
+          "fin": "12:25",
+          "docente": "Veronelli",
+          "modalidad": "presencial",
+          "nota": "(Opción B)"
+        }
+      ]
+    },
+    {
+      "id": "lit-lengua-inglesa-2-3-mañana",
+      "materiaId": "lit-lengua-inglesa-2",
+      "materiaNombre": "LIT. LENGUA INGLESA 2",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "07:45",
+          "fin": "08:25",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": "(1er Cuat 2027: Literatura 1)"
+        }
+      ]
+    },
+    {
+      "id": "lit-inglesa-1-3-mañana",
+      "materiaId": "lit-inglesa-1",
+      "materiaNombre": "LIT. INGLESA 1",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "08:25",
+          "fin": "10:25",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "sistema-y-politica-educativa-3-mañana",
+      "materiaId": "sistema-y-politica-educativa",
+      "materiaNombre": "SISTEMA Y POLÍTICA EDUCATIVA",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Gentile",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        },
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Del Regno",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "informatica-3-mañana",
+      "materiaId": "informatica",
+      "materiaNombre": "INFORMÁTICA",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "Berardi",
+          "modalidad": "sincronico",
+          "nota": "(sincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "instituciones-educativas-3-mañana",
+      "materiaId": "instituciones-educativas",
+      "materiaNombre": "INSTITUCIONES EDUCATIVAS",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Esmoris",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "suj-de-la-ed-2-3-mañana",
+      "materiaId": "suj-de-la-ed-2",
+      "materiaNombre": "SUJ DE LA ED 2",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Rivarola",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "las-tic-aplicadas-3-mañana",
+      "materiaId": "las-tic-aplicadas",
+      "materiaNombre": "LAS TIC APLICADAS",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "11:05",
+          "docente": "Dayan",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "tic-aplicadas-3-mañana",
+      "materiaId": "tic-aplicadas",
+      "materiaNombre": "TIC APLICADAS",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "11:05",
+          "fin": "12:25",
+          "docente": "Dayan",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "creatividad-2-3-mañana",
+      "materiaId": "creatividad-2",
+      "materiaNombre": "CREATIVIDAD 2",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "11:05",
+          "docente": "Durán",
+          "modalidad": "sincronico",
+          "nota": "(Prox: Creat 1) (sincrónica)"
+        }
+      ]
+    },
+    {
+      "id": "creativi-dad-2-3-mañana",
+      "materiaId": "creativi-dad-2",
+      "materiaNombre": "CREATIVI DAD 2",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "11:05",
+          "fin": "12:25",
+          "docente": "Durán",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "linguistica-3-mañana",
+      "materiaId": "linguistica",
+      "materiaNombre": "LINGÜÍSTICA",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "08:25",
+          "docente": "Caligaris",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "linguist-ica-3-mañana",
+      "materiaId": "linguist-ica",
+      "materiaNombre": "LINGÜÍST ICA",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "08:25",
+          "fin": "10:25",
+          "docente": "Caligaris",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-3-3-mañana",
+      "materiaId": "fonologia-y-practica-de-lab-3",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 3",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Massolo",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "taller-5-3-mañana",
+      "materiaId": "taller-5",
+      "materiaNombre": "TALLER 5",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "08:25",
+          "fin": "10:25",
+          "docente": "Muiño 1° cuat 2027: Taller",
+          "modalidad": "sincronico",
+          "nota": "6 (sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-4-4-mañana",
+      "materiaId": "lengua-inglesa-4",
+      "materiaNombre": "LENGUA INGLESA 4",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "07:45",
+          "fin": "11:45",
+          "docente": "Ferreyra Fernàndez",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "teatro-4-mañana",
+      "materiaId": "teatro",
+      "materiaNombre": "TEATRO",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "09:45",
+          "fin": "11:45",
+          "docente": "Ertel",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "analisis-y-redaccion-de-textos-4-mañana",
+      "materiaId": "analisis-y-redaccion-de-textos",
+      "materiaNombre": "ANÁLISIS Y REDACCIÓN DE TEXTOS",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "Curatolo",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-prof-docente-4-mañana",
+      "materiaId": "trabajo-prof-docente",
+      "materiaNombre": "TRABAJO / PROF. DOCENTE",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "10:25",
+          "docente": "Clessi",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "seminario-invest-accion-2-4-mañana",
+      "materiaId": "seminario-invest-accion-2",
+      "materiaNombre": "SEMINARIO INVEST. ACCIÓN 2",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "08:25",
+          "docente": "Adem",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 50% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "invest-accion-2-4-mañana",
+      "materiaId": "invest-accion-2",
+      "materiaNombre": "INVEST. ACCIÓN 2",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "08:25",
+          "fin": "09:45",
+          "docente": "Adem",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 50% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-3-4-mañana",
+      "materiaId": "literatura-en-lengua-inglesa-3",
+      "materiaNombre": "LITERATURA EN LENGUA INGLESA 3",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "docente": "Fernández Armendáriz",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "saberes-ludicos-4-mañana",
+      "materiaId": "saberes-ludicos",
+      "materiaNombre": "SABERES LÚDICOS",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "Plencovich",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "filosofia-4-mañana",
+      "materiaId": "filosofia",
+      "materiaNombre": "FILOSOFÍA",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "09:45",
+          "fin": "12:25",
+          "docente": "Tabakian 1er cuat 2027: Nuevos Escenarios",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "cultura-inglesa-3-4-mañana",
+      "materiaId": "cultura-inglesa-3",
+      "materiaNombre": "CULTURA INGLESA 3",
+      "turno": "mañana",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "F. Armendariz",
+          "modalidad": "bimodal",
+          "nota": "(50% sincrónico, 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "portugues-ab-initio-2-5-mañana",
+      "materiaId": "portugues-ab-initio-2",
+      "materiaNombre": "PORTUGUÉS AB INITIO 2",
+      "turno": "mañana",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "Rodrigues Da Silva",
+          "modalidad": "sincronico",
+          "nota": "(1er Cuat 2027: Ab Initio 1) (sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "musica-5-mañana",
+      "materiaId": "musica",
+      "materiaNombre": "MÚSICA",
+      "turno": "mañana",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "docente": "De Carlos",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-4-5-mañana",
+      "materiaId": "literatura-en-lengua-inglesa-4",
+      "materiaNombre": "LITERATURA EN LENGUA INGLESA 4",
+      "turno": "mañana",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "09:45",
+          "fin": "11:45",
+          "docente": "Fernández Armendáriz",
+          "modalidad": "bimodal",
+          "nota": "(50% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-gentile-None-mañana",
+      "materiaId": "trabajo-de-campo-gentile",
+      "materiaNombre": "TRABAJO DE CAMPO GENTILE",
+      "turno": "mañana",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "10:25",
+          "fin": "11:45",
+          "docente": "en Sistema y Política Educativa",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-del-regno-None-mañana",
+      "materiaId": "trabajo-de-campo-del-regno",
+      "materiaNombre": "TRABAJO DE CAMPO DEL REGNO",
+      "turno": "mañana",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "07:45",
+          "fin": "08:25",
+          "docente": "en Pedagogía",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        },
+        {
+          "dia": 4,
+          "inicio": "11:45",
+          "fin": "12:25",
+          "docente": "en Pedagogía",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-eichenbronner-None-mañana",
+      "materiaId": "trabajo-de-eichenbronner",
+      "materiaNombre": "TRABAJO DE EICHENBRONNER",
+      "turno": "mañana",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "08:25",
+          "fin": "09:45",
+          "docente": "CAMPO en Psicología Educacional",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-None-mañana",
+      "materiaId": "trabajo-de",
+      "materiaNombre": "TRABAJO DE",
+      "turno": "mañana",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "08:25",
+          "fin": "09:45",
+          "docente": "CAMPO en Instituciones Educativas Esmoris",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        },
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "11:45",
+          "docente": "CAMPO en Didáctica General Belser",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-del-regno-None-mañana",
+      "materiaId": "trabajo-de-del-regno",
+      "materiaNombre": "TRABAJO DE DEL REGNO",
+      "turno": "mañana",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "10:25",
+          "fin": "11:45",
+          "docente": "CAMPO de Sistema y Política Educativa",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-spina-None-mañana",
+      "materiaId": "trabajo-de-campo-spina",
+      "materiaNombre": "TRABAJO DE CAMPO SPINA",
+      "turno": "mañana",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "10:25",
+          "fin": "11:45",
+          "docente": "en Didáctica General",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "gramatica-1-1-A-vespertino",
+      "materiaId": "gramatica-1",
+      "materiaNombre": "GRAMÁTICA 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Rodríguez",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-1-1-A-vespertino",
+      "materiaId": "fonologia-y-practica-de-lab-1",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "19:20",
+          "fin": "22:40",
+          "docente": "Carteau",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 1,
+          "inicio": "19:20",
+          "fin": "22:40",
+          "docente": "Morelli",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-1-1-A-vespertino",
+      "materiaId": "lengua-inglesa-1",
+      "materiaNombre": "LENGUA INGLESA 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Ragno",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Ragno",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 5,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "didactica-general-1-A-vespertino",
+      "materiaId": "didactica-general",
+      "materiaNombre": "DIDÁCTICA GENERAL",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Del Regno",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027: Pedagogía)"
+        },
+        {
+          "dia": 5,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Spina",
+          "modalidad": "asincronico",
+          "nota": "(asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "lectura-escritura-y-oralidad-1-A-vespertino",
+      "materiaId": "lectura-escritura-y-oralidad",
+      "materiaNombre": "LECTURA, ESCRITURA Y ORALIDAD",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Querales",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "psicologia-educacional-1-A-vespertino",
+      "materiaId": "psicologia-educacional",
+      "materiaNombre": "PSICOLOGÍA EDUCACIONAL",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Eichenbronner",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "taller-2-1-A-vespertino",
+      "materiaId": "taller-2",
+      "materiaNombre": "TALLER 2",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Costa, F.",
+          "modalidad": "presencial",
+          "nota": "(1er cuatrimestre 2027: Taller 1)"
+        }
+      ]
+    },
+    {
+      "id": "nuevas-tecnologias-1-A-vespertino",
+      "materiaId": "nuevas-tecnologias",
+      "materiaNombre": "NUEVAS TECNOLOGÍAS",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Berardi",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-1-1-B-vespertino",
+      "materiaId": "lengua-inglesa-1",
+      "materiaNombre": "LENGUA INGLESA 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 4,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "De Domenico",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "nuevas-tecnologias-1-B-vespertino",
+      "materiaId": "nuevas-tecnologias",
+      "materiaNombre": "NUEVAS TECNOLOGÍAS",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Olivera",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-1-B-vespertino",
+      "materiaId": "fonologia-y-practica-de-lab",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB.",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "18:40",
+          "docente": "1 Morelli",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "20:40",
+          "fin": "22:00",
+          "docente": "1 Pérez Ponsa",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-1-1-B-vespertino",
+      "materiaId": "fonologia-y-practica-de-lab-1",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "18:40",
+          "fin": "20:40",
+          "docente": "Pérez Ponsa",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "18:40",
+          "fin": "20:40",
+          "docente": "Morelli",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "psicologia-educacional-1-B-vespertino",
+      "materiaId": "psicologia-educacional",
+      "materiaNombre": "PSICOLOGÍA EDUCACIONAL",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Rosenfeld",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        },
+        {
+          "dia": 5,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Eichenbronner",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lectura-escritura-y-oralidad-1-B-vespertino",
+      "materiaId": "lectura-escritura-y-oralidad",
+      "materiaNombre": "LECTURA, ESCRITURA Y ORALIDAD",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Kandel",
+          "modalidad": "asincronico",
+          "nota": "(asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "pedagogia-1-B-vespertino",
+      "materiaId": "pedagogia",
+      "materiaNombre": "PEDAGOGÍA",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Bergel",
+          "modalidad": "asincronico",
+          "nota": "(asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "gramatica-1-1-B-vespertino",
+      "materiaId": "gramatica-1",
+      "materiaNombre": "GRAMÁTICA 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Caligaris",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "didactica-general-1-B-vespertino",
+      "materiaId": "didactica-general",
+      "materiaNombre": "DIDÁCTICA GENERAL",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Spina",
+          "modalidad": "asincronico",
+          "nota": "(asincrónico)"
+        },
+        {
+          "dia": 4,
+          "inicio": "22:00",
+          "fin": "22:40",
+          "docente": "Spina",
+          "modalidad": "asincronico",
+          "nota": "(asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "taller-1-1-B-vespertino",
+      "materiaId": "taller-1",
+      "materiaNombre": "TALLER 1",
+      "turno": "vespertino",
+      "anio": 1,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Castino",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027: Taller 2)"
+        }
+      ]
+    },
+    {
+      "id": "taller-3-2-A-vespertino",
+      "materiaId": "taller-3",
+      "materiaNombre": "TALLER 3",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Castino",
+          "modalidad": "sincronico",
+          "nota": "(1er cuat 2027: Taller 4) (sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "sujeto-de-la-educacion-1-2-A-vespertino",
+      "materiaId": "sujeto-de-la-educacion-1",
+      "materiaNombre": "SUJETO DE LA EDUCACIÓN 1",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "20:00",
+          "fin": "20:40",
+          "docente": "Veneroso",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "sujeto-de-la-ed-1-2-A-vespertino",
+      "materiaId": "sujeto-de-la-ed-1",
+      "materiaNombre": "SUJETO DE LA ED 1",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "20:40",
+          "fin": "22:40",
+          "docente": "Veneroso",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-2-2-A-vespertino",
+      "materiaId": "lengua-inglesa-2",
+      "materiaNombre": "LENGUA INGLESA 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Crottogini",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "cultura-de-los-pueblos-de-habla-inglesa-1-2-A-vespertino",
+      "materiaId": "cultura-de-los-pueblos-de-habla-inglesa-1",
+      "materiaNombre": "CULTURA DE LOS PUEBLOS DE HABLA INGLESA 1",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Ferraro",
+          "modalidad": "asincronico",
+          "nota": "(asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "didactica-especifica-1-2-A-vespertino",
+      "materiaId": "didactica-especifica-1",
+      "materiaNombre": "DIDÁCTICA ESPECÍFICA 1",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Asereny",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027: Didáctica Específica 2)"
+        }
+      ]
+    },
+    {
+      "id": "instituciones-educativas-2-A-vespertino",
+      "materiaId": "instituciones-educativas",
+      "materiaNombre": "INSTITUCIONES EDUCATIVAS",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Kirsanov",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico, 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "metodologia-de-la-investigacion-2-A-vespertino",
+      "materiaId": "metodologia-de-la-investigacion",
+      "materiaNombre": "METODOLOGÍA DE LA INVESTIGACIÒN",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Rivas",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-2-2-A-vespertino",
+      "materiaId": "fonologia-y-practica-de-lab-2",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "17:20",
+          "fin": "20:40",
+          "docente": "Luccon",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "gramatica-2-2-A-vespertino",
+      "materiaId": "gramatica-2",
+      "materiaNombre": "GRAMÁTICA 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Almagro",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "creatividad-2-2-A-vespertino",
+      "materiaId": "creatividad-2",
+      "materiaNombre": "CREATIVIDAD 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "A",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "19:20",
+          "fin": "21:20",
+          "docente": "Accardo",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027: Creatividad 1)"
+        }
+      ]
+    },
+    {
+      "id": "cultura-de-los-pueblos-de-habla-inglesa-1-2-B-vespertino",
+      "materiaId": "cultura-de-los-pueblos-de-habla-inglesa-1",
+      "materiaNombre": "CULTURA DE LOS PUEBLOS DE HABLA INGLESA 1",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Roldán",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "gramatica-2-2-B-vespertino",
+      "materiaId": "gramatica-2",
+      "materiaNombre": "GRAMÁTICA 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Almagro",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "sujeto-de-la-educacion-1-2-B-vespertino",
+      "materiaId": "sujeto-de-la-educacion-1",
+      "materiaNombre": "SUJETO DE LA EDUCACIÓN 1",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "22:00",
+          "fin": "22:40",
+          "docente": "Veneroso",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "sistema-y-politica-educativa-2-B-vespertino",
+      "materiaId": "sistema-y-politica-educativa",
+      "materiaNombre": "SISTEMA Y POLÍTICA EDUCATIVA",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "18:00",
+          "docente": "Ambao",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Ambao",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "didactica-especifica-2-2-B-vespertino",
+      "materiaId": "didactica-especifica-2",
+      "materiaNombre": "DIDÁCTICA ESPECÍFICA 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "18:00",
+          "fin": "20:40",
+          "docente": "Longobardi Didáctica",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027: Específica 1)"
+        }
+      ]
+    },
+    {
+      "id": "taller-4-2-B-vespertino",
+      "materiaId": "taller-4",
+      "materiaNombre": "TALLER 4",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:40",
+          "fin": "22:40",
+          "docente": "Costa",
+          "modalidad": "sincronico",
+          "nota": "(1er cuat 2027: Taller 3) (sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "metodologia-de-la-investigacion-2-B-vespertino",
+      "materiaId": "metodologia-de-la-investigacion",
+      "materiaNombre": "METODOLOGÍA DE LA INVESTIGACIÒN",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Rivas",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "instituciones-educativas-2-B-vespertino",
+      "materiaId": "instituciones-educativas",
+      "materiaNombre": "INSTITUCIONES EDUCATIVAS",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Kirsanov",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico, 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-2-2-B-vespertino",
+      "materiaId": "lengua-inglesa-2",
+      "materiaNombre": "LENGUA INGLESA 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "17:20",
+          "fin": "21:20",
+          "docente": "Derman",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-2-2-B-vespertino",
+      "materiaId": "fonologia-y-practica-de-lab-2",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 2",
+      "turno": "vespertino",
+      "anio": 2,
+      "comision": "B",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "17:20",
+          "fin": "20:40",
+          "docente": "Benítez",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "sujeto-de-la-educacion-2-3-vespertino",
+      "materiaId": "sujeto-de-la-educacion-2",
+      "materiaNombre": "SUJETO DE LA EDUCACIÓN 2",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Rivarola",
+          "modalidad": "bimodal",
+          "nota": "(Opción A) (25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "taller-6-3-vespertino",
+      "materiaId": "taller-6",
+      "materiaNombre": "TALLER 6",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Castino",
+          "modalidad": "sincronico",
+          "nota": "(1er Cuat 2027: Taller 5) (sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-2-3-vespertino",
+      "materiaId": "literatura-en-lengua-inglesa-2",
+      "materiaNombre": "LITERATURA EN LENGUA INGLESA 2",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "18:00",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "literatura-inglesa-2-3-vespertino",
+      "materiaId": "literatura-inglesa-2",
+      "materiaNombre": "LITERATURA INGLESA 2",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Costa",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027:Lit 1)"
+        }
+      ]
+    },
+    {
+      "id": "creatividad-1-3-vespertino",
+      "materiaId": "creatividad-1",
+      "materiaNombre": "CREATIVIDAD 1",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Accardo",
+          "modalidad": "presencial",
+          "nota": "(1er cuatrimestre 2027: Creatividad 2)"
+        }
+      ]
+    },
+    {
+      "id": "fonologia-y-practica-de-lab-3-3-vespertino",
+      "materiaId": "fonologia-y-practica-de-lab-3",
+      "materiaNombre": "FONOLOGÍA Y PRÁCTICA DE LAB. 3",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Luccon",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        },
+        {
+          "dia": 5,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Prado",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "esi-3-vespertino",
+      "materiaId": "esi",
+      "materiaNombre": "ESI",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "18:40",
+          "fin": "19:20",
+          "docente": "Accardo",
+          "modalidad": "presencial",
+          "nota": "(Opción D)"
+        },
+        {
+          "dia": 2,
+          "inicio": "19:20",
+          "fin": "20:00",
+          "docente": "Accardo",
+          "modalidad": "presencial",
+          "nota": "(Opción D)"
+        },
+        {
+          "dia": 5,
+          "inicio": "18:00",
+          "fin": "19:20",
+          "docente": "Accardo",
+          "modalidad": "presencial",
+          "nota": "(Opción C)"
+        }
+      ]
+    },
+    {
+      "id": "linguistica-3-vespertino",
+      "materiaId": "linguistica",
+      "materiaNombre": "LINGÜÍSTICA",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "20:00",
+          "docente": "Verdelli",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "informatica-para-la-ensenanza-3-vespertino",
+      "materiaId": "informatica-para-la-ensenanza",
+      "materiaNombre": "INFORMÁTICA PARA LA ENSEÑANZA",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Dayan",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-3-3-vespertino",
+      "materiaId": "lengua-inglesa-3",
+      "materiaNombre": "LENGUA INGLESA 3",
+      "turno": "vespertino",
+      "anio": 3,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "18:00",
+          "fin": "22:00",
+          "docente": "Longobardi",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "nuevos-escenarios-4-vespertino",
+      "materiaId": "nuevos-escenarios",
+      "materiaNombre": "NUEVOS ESCENARIOS",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "17:20",
+          "fin": "18:00",
+          "docente": "Villarejo",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        },
+        {
+          "dia": 1,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Villarejo",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "las-tic-aplicadas-4-vespertino",
+      "materiaId": "las-tic-aplicadas",
+      "materiaNombre": "LAS TIC APLICADAS",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Dayan",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "teatro-4-vespertino",
+      "materiaId": "teatro",
+      "materiaNombre": "TEATRO",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Ertel",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "sistema-y-politica-educativa-4-vespertino",
+      "materiaId": "sistema-y-politica-educativa",
+      "materiaNombre": "SISTEMA Y POLÍTICA EDUCATIVA",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Ambao",
+          "modalidad": "presencial",
+          "nota": null
+        },
+        {
+          "dia": 2,
+          "inicio": "19:20",
+          "fin": "20:00",
+          "docente": "Ambao",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "filosofia-4-vespertino",
+      "materiaId": "filosofia",
+      "materiaNombre": "FILOSOFÍA",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:00",
+          "fin": "22:40",
+          "docente": "Arriagada",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "saberes-ludicos-4-vespertino",
+      "materiaId": "saberes-ludicos",
+      "materiaNombre": "SABERES LÚDICOS",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Plencovich",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "analisis-y-redaccion-de-textos-4-vespertino",
+      "materiaId": "analisis-y-redaccion-de-textos",
+      "materiaNombre": "ANÁLISIS Y REDACCIÓN DE TEXTOS",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "17:20",
+          "fin": "19:20",
+          "docente": "Carrió",
+          "modalidad": "bimodal",
+          "nota": "(25% sincrónico 25% asincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-profesionalizacion-docente-4-vespertino",
+      "materiaId": "trabajo-profesionalizacion-docente",
+      "materiaNombre": "TRABAJO / PROFESIONALIZACIÓN DOCENTE",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "19:20",
+          "fin": "20:00",
+          "docente": "Rivas",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-profesionalizacion-4-vespertino",
+      "materiaId": "trabajo-profesionalizacion",
+      "materiaNombre": "TRABAJO / PROFESIONALIZACIÓN",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Rivas",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-3-4-vespertino",
+      "materiaId": "literatura-en-lengua-inglesa-3",
+      "materiaNombre": "LITERATURA EN LENGUA INGLESA 3",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Jacovkis",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-4-4-vespertino",
+      "materiaId": "lengua-inglesa-4",
+      "materiaNombre": "LENGUA INGLESA 4",
+      "turno": "vespertino",
+      "anio": 4,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "17:20",
+          "fin": "21:20",
+          "docente": "Longobardi",
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "portugues-ab-initio-2-5-vespertino",
+      "materiaId": "portugues-ab-initio-2",
+      "materiaNombre": "PORTUGUÉS AB INITIO 2",
+      "turno": "vespertino",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": "Rodrigues Da Silva",
+          "modalidad": "sincronico",
+          "nota": "(1er cuat 2027: Ab Initio 1) (sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "cultura-de-los-pueblos-de-habla-inglesa-3-5-vespertino",
+      "materiaId": "cultura-de-los-pueblos-de-habla-inglesa-3",
+      "materiaNombre": "CULTURA DE LOS PUEBLOS DE HABLA INGLESA 3",
+      "turno": "vespertino",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Perduca",
+          "modalidad": "presencial",
+          "nota": "(1er cuat 2027: Cultura 2)"
+        }
+      ]
+    },
+    {
+      "id": "musica-raviolo-5-vespertino",
+      "materiaId": "musica-raviolo",
+      "materiaNombre": "MÚSICA RAVIOLO",
+      "turno": "vespertino",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "18:00",
+          "fin": "20:00",
+          "docente": null,
+          "modalidad": "sincronico",
+          "nota": "(sincrónico)"
+        }
+      ]
+    },
+    {
+      "id": "literatura-en-lengua-inglesa-4-5-vespertino",
+      "materiaId": "literatura-en-lengua-inglesa-4",
+      "materiaNombre": "LITERATURA EN LENGUA INGLESA 4",
+      "turno": "vespertino",
+      "anio": 5,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "20:00",
+          "fin": "22:00",
+          "docente": "Jacovkis",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-del-regno-None-vespertino",
+      "materiaId": "trabajo-de-campo-del-regno",
+      "materiaNombre": "TRABAJO DE CAMPO DEL REGNO",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "18:40",
+          "fin": "20:00",
+          "docente": "en Didáctica General",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-ambao-None-vespertino",
+      "materiaId": "trabajo-de-campo-ambao",
+      "materiaNombre": "TRABAJO DE CAMPO AMBAO",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "20:00",
+          "fin": "21:20",
+          "docente": "en Sistema y Política Educativa",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-kirsanov-None-vespertino",
+      "materiaId": "trabajo-de-campo-kirsanov",
+      "materiaNombre": "TRABAJO DE CAMPO KIRSANOV",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "18:40",
+          "fin": "20:00",
+          "docente": "en Instituciones Educativas",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-None-vespertino",
+      "materiaId": "trabajo-de",
+      "materiaNombre": "TRABAJO DE",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "21:20",
+          "docente": "CAMPO en Psicología Educacional Rosenfeld",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-bergel-None-vespertino",
+      "materiaId": "trabajo-de-campo-bergel",
+      "materiaNombre": "TRABAJO DE CAMPO BERGEL",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 3,
+          "inicio": "20:00",
+          "fin": "21:20",
+          "docente": "en Pedagogía",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-spina-None-vespertino",
+      "materiaId": "trabajo-de-campo-spina",
+      "materiaNombre": "TRABAJO DE CAMPO SPINA",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "18:40",
+          "fin": "20:00",
+          "docente": "en Didáctica General",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    },
+    {
+      "id": "trabajo-de-campo-eichenbronner-None-vespertino",
+      "materiaId": "trabajo-de-campo-eichenbronner",
+      "materiaNombre": "TRABAJO DE CAMPO EICHENBRONNER",
+      "turno": "vespertino",
+      "anio": null,
+      "comision": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "20:00",
+          "fin": "21:20",
+          "docente": "en Psicología Educacional",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        },
+        {
+          "dia": 5,
+          "inicio": "20:00",
+          "fin": "21:20",
+          "docente": "en Psicología Educacional",
+          "modalidad": "asincronico",
+          "nota": "(ASINCRÓNICO)"
+        }
+      ]
+    }
+  ]
+}
