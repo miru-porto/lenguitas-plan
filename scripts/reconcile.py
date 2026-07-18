@@ -55,7 +55,8 @@ def fusionar_clases(clases):
             if a_min(cl["fin"]) > a_min(prev["fin"]):
                 prev["fin"] = cl["fin"]
             prev["_mods"].append(cl["modalidad"])
-            prev["nota"] = prev.get("nota") or cl.get("nota")
+            if not prev.get("virtualidad") and cl.get("virtualidad"):
+                prev["virtualidad"] = cl["virtualidad"]
         else:
             nuevo = dict(cl)
             nuevo["_mods"] = [cl["modalidad"]]
@@ -136,8 +137,8 @@ def main():
                 "fin": cl["fin"],
                 "modalidad": cl["modalidad"],
             }
-            if cl.get("nota"):
-                clase["nota"] = cl["nota"]
+            if cl.get("virtualidad"):
+                clase["virtualidad"] = cl["virtualidad"]
             cat["clases"].append(clase)
 
     # Finalizo cada cátedra: docente display, dedup y orden de clases, id estable.

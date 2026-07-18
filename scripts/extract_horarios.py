@@ -200,7 +200,7 @@ def procesar_trabajo_campo(page, turno):
                 "fin": b["fin"],
                 "docente": b["docente"],
                 "modalidad": "asincronico",
-                "nota": f"Trabajo de Campo en {b['espacio']}",
+                "virtualidad": "asincrónico",
             }
         )
     for com in comisiones.values():
@@ -290,7 +290,11 @@ def procesar_pagina(page, turno, warns):
                 "fin": b["fin"],
                 "docente": b["docente"],
                 "modalidad": clasificar_modalidad(b["nota"]) if b["nota"] else "presencial",
-                "nota": b["nota"],
+                "virtualidad": (
+                    b["nota"]
+                    if b["nota"] and re.search(r"sincr[oó]nic|%", b["nota"], re.IGNORECASE)
+                    else None
+                ),
             }
         )
 

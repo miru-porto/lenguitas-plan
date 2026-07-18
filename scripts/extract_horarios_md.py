@@ -90,8 +90,20 @@ def clasificar(nota):
     return "presencial"
 
 
+def extraer_virtualidad(bold):
+    """Devuelve sólo la frase de modalidad (ej. '25% sincrónico 25% asincrónico',
+    'sincrónico'), ignorando notas de cuatrimestre. En minúscula, o None."""
+    # Preferimos el contenido de un paréntesis que hable de modalidad.
+    for g in re.findall(r"\(([^)]*)\)", bold):
+        if re.search(r"sincr[oó]nic|%", g, re.IGNORECASE):
+            return norm(g).lower()
+    # Sin paréntesis: frase de modalidad suelta (ej. 'Chervonko 25% sincrónica ...').
+    m = re.search(r"(\d+\s*%[^()]*?sincr[oó]nic\w*[^()]*|a?sincr[oó]nic\w*)", bold, re.IGNORECASE)
+    return norm(m.group(1)).lower() if m else None
+
+
 def parsear_celda(txt):
-    """'MATERIA **Docente (modalidad)**' -> (materia, docente, modalidad, nota)."""
+    """'MATERIA **Docente (modalidad)**' -> (materia, docente, modalidad, virtualidad)."""
     txt = txt.replace("\\", "").strip()
     if not txt:
         return None
@@ -110,8 +122,8 @@ def parsear_celda(txt):
         if m2:
             idx = min(idx, m2.start())
     docente = norm(bold[:idx]).strip(" (") or None
-    nota = norm(bold[idx:]).strip("() ") or None
-    return materia, docente, clasificar(nota), nota
+    virt = extraer_virtualidad(bold)
+    return materia, docente, clasificar(virt), virt
 
 
 def parsear_tdc(txt):
@@ -204,13 +216,13 @@ def procesar(titulo, filas, turno):
             })
             com["clases"].append({"dia": b["dia"], "inicio": b["inicio"], "fin": b["fin"],
                                   "docente": docente, "modalidad": "asincronico",
-                                  "nota": f"Trabajo de Campo en {espacio}"})
+                                  "virtualidad": "asincrónico"})
         return list(coms.values())
 
     anio, comision = datos_titulo(titulo)
     coms = {}
     for b in bloques_por_columna(filas, parsear_celda):
-        materia, docente, modalidad, nota = b["parsed"]
+        materia, docente, modalidad, virt = b["parsed"]
         key = (materia, docente)
         com = coms.setdefault(key, {
             "id": slug(f"{materia} {docente} {anio} {comision} {turno}"),
@@ -218,7 +230,7 @@ def procesar(titulo, filas, turno):
             "turno": turno, "anio": anio, "comision": comision, "clases": [],
         })
         com["clases"].append({"dia": b["dia"], "inicio": b["inicio"], "fin": b["fin"],
-                              "docente": docente, "modalidad": modalidad, "nota": nota})
+                              "docente": docente, "modalidad": modalidad, "virtualidad": virt})
     return list(coms.values())
 
 
