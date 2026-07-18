@@ -38,6 +38,29 @@ def slug(texto):
     return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
 
 
+def a_min(hhmm):
+    h, m = hhmm.split(":")
+    return int(h) * 60 + int(m)
+
+
+def fusionar_clases(clases):
+    """Une bloques del mismo día contiguos o solapados (quedan partidos por las
+    celdas combinadas del grid). Si alguna parte ocupa franja (no asincrónica),
+    el bloque resultante ocupa franja."""
+    out = []
+    for cl in sorted(clases, key=lambda x: (x["dia"], a_min(x["inicio"]), a_min(x["fin"]))):
+        prev = out[-1] if out else None
+        if prev and prev["dia"] == cl["dia"] and a_min(cl["inicio"]) <= a_min(prev["fin"]):
+            if a_min(cl["fin"]) > a_min(prev["fin"]):
+                prev["fin"] = cl["fin"]
+            if cl["modalidad"] != "asincronico":
+                prev["modalidad"] = cl["modalidad"]
+            prev["nota"] = prev.get("nota") or cl.get("nota")
+        else:
+            out.append(dict(cl))
+    return out
+
+
 def limpiar_docente(s):
     """Saca ruido de extracción del nombre del docente:
     '1 Morelli' -> 'Morelli' ; 'Belser 1er Cuat 2027: Pedagogía' -> 'Belser'."""
@@ -113,14 +136,7 @@ def main():
     salida = []
     for cat in catedras.values():
         docente = elegir_display(list(cat.pop("_docentes")))
-        vistos, unicas = set(), []
-        for cl in sorted(cat["clases"], key=lambda x: (x["dia"], x["inicio"], x["fin"])):
-            k = (cl["dia"], cl["inicio"], cl["fin"], cl["modalidad"])
-            if k in vistos:
-                continue
-            vistos.add(k)
-            unicas.append(cl)
-        cat["clases"] = unicas
+        cat["clases"] = fusionar_clases(cat["clases"])
         cat["docente"] = docente
         cat["id"] = "-".join(
             x for x in [
