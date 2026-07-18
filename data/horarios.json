@@ -28,14 +28,9 @@
         {
           "dia": 4,
           "inicio": "07:45",
-          "fin": "08:25",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 4,
-          "inicio": "08:25",
           "fin": "10:25",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         }
       ]
     },
@@ -51,8 +46,8 @@
           "dia": 2,
           "inicio": "20:00",
           "fin": "22:40",
-          "modalidad": "presencial",
-          "nota": "(1er cuat 2027: Pedagogía)"
+          "modalidad": "bimodal",
+          "nota": "1er cuat 2027: Pedagogía"
         }
       ]
     },
@@ -69,7 +64,7 @@
           "inicio": "20:00",
           "fin": "22:40",
           "modalidad": "asincronico",
-          "nota": "(asincrónico)"
+          "nota": "asincrónico"
         }
       ]
     },
@@ -82,18 +77,11 @@
       "docente": "Spina",
       "clases": [
         {
-          "dia": 4,
+          "dia": 5,
           "inicio": "20:00",
-          "fin": "22:00",
-          "modalidad": "asincronico",
-          "nota": "(asincrónico)"
-        },
-        {
-          "dia": 4,
-          "inicio": "22:00",
           "fin": "22:40",
           "modalidad": "asincronico",
-          "nota": "(asincrónico)"
+          "nota": "asincrónico"
         }
       ]
     },
@@ -194,14 +182,9 @@
         {
           "dia": 2,
           "inicio": "17:20",
-          "fin": "18:40",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "18:40",
           "fin": "20:40",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         }
       ]
     },
@@ -216,12 +199,6 @@
         {
           "dia": 2,
           "inicio": "18:40",
-          "fin": "20:40",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "20:40",
           "fin": "22:00",
           "modalidad": "presencial"
         }
@@ -302,7 +279,7 @@
         {
           "dia": 4,
           "inicio": "20:00",
-          "fin": "22:00",
+          "fin": "22:40",
           "modalidad": "presencial"
         }
       ]
@@ -318,19 +295,31 @@
         {
           "dia": 1,
           "inicio": "07:45",
-          "fin": "12:25",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 1,
-          "inicio": "08:25",
           "fin": "11:05",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         },
         {
           "dia": 3,
           "inicio": "07:45",
           "fin": "09:45",
+          "modalidad": "presencial",
+          "nota": null
+        }
+      ]
+    },
+    {
+      "id": "lengua-inglesa-1-1-a-ragno-mañana",
+      "materiaId": "lengua-inglesa-1",
+      "turno": "mañana",
+      "anio": 1,
+      "comision": "A",
+      "docente": "Ragno",
+      "clases": [
+        {
+          "dia": 1,
+          "inicio": "08:25",
+          "fin": "12:25",
           "modalidad": "presencial"
         },
         {
@@ -358,14 +347,9 @@
         {
           "dia": 5,
           "inicio": "07:45",
-          "fin": "11:05",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 5,
-          "inicio": "11:05",
           "fin": "11:45",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         }
       ]
     },
@@ -380,14 +364,9 @@
         {
           "dia": 2,
           "inicio": "07:45",
-          "fin": "11:05",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "11:05",
           "fin": "11:45",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         },
         {
           "dia": 3,
@@ -476,7 +455,7 @@
           "inicio": "09:45",
           "fin": "12:25",
           "modalidad": "presencial",
-          "nota": "(1er Cuat 2027: Did. General)"
+          "nota": "1er Cuat 2027: Did. General"
         }
       ]
     },
@@ -493,7 +472,7 @@
           "inicio": "17:20",
           "fin": "20:00",
           "modalidad": "asincronico",
-          "nota": "(asincrónico)"
+          "nota": "asincrónico"
         }
       ]
     },
@@ -574,7 +553,7 @@
           "inicio": "17:20",
           "fin": "20:00",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -591,7 +570,7 @@
           "inicio": "07:45",
           "fin": "09:45",
           "modalidad": "presencial",
-          "nota": "(1° Cuat 2027: Taller 2)"
+          "nota": "1° Cuat 2027: Taller 2"
         }
       ]
     },
@@ -608,7 +587,7 @@
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "presencial",
-          "nota": "(1er cuat 2027: Taller 2)"
+          "nota": "1er cuat 2027: Taller 2"
         }
       ]
     },
@@ -625,7 +604,7 @@
           "inicio": "10:25",
           "fin": "12:25",
           "modalidad": "presencial",
-          "nota": "(1er Cuat 2027: Taller 1)"
+          "nota": "1er Cuat 2027: Taller 1"
         }
       ]
     },
@@ -642,7 +621,7 @@
           "inicio": "10:25",
           "fin": "12:25",
           "modalidad": "presencial",
-          "nota": "(1er Cuat 2027: Taller 1)"
+          "nota": "1er Cuat 2027: Taller 1"
         }
       ]
     },
@@ -659,7 +638,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "presencial",
-          "nota": "(1er cuatrimestre 2027: Taller 1)"
+          "nota": "1er cuatrimestre 2027: Taller 1"
         }
       ]
     },
@@ -756,7 +735,7 @@
           "inicio": "17:20",
           "fin": "20:00",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -773,7 +752,7 @@
           "inicio": "20:00",
           "fin": "22:40",
           "modalidad": "asincronico",
-          "nota": "(asincrónico)"
+          "nota": "asincrónico"
         }
       ]
     },
@@ -790,7 +769,7 @@
           "inicio": "19:20",
           "fin": "21:20",
           "modalidad": "presencial",
-          "nota": "(1er cuat 2027: Creatividad 1)"
+          "nota": "1er cuat 2027: Creatividad 1"
         }
       ]
     },
@@ -807,7 +786,7 @@
           "inicio": "09:45",
           "fin": "10:25",
           "modalidad": "sincronico",
-          "nota": "(sincrónica)"
+          "nota": "sincrónica"
         }
       ]
     },
@@ -824,7 +803,7 @@
           "inicio": "08:25",
           "fin": "09:45",
           "modalidad": "sincronico",
-          "nota": "(sincrónica)"
+          "nota": "sincrónica"
         }
       ]
     },
@@ -841,7 +820,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "asincronico",
-          "nota": "(asincrónico)"
+          "nota": "asincrónico"
         }
       ]
     },
@@ -858,7 +837,24 @@
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
+        }
+      ]
+    },
+    {
+      "id": "didactica-especifica-1-2-mañana",
+      "materiaId": "didactica-especifica-1",
+      "turno": "mañana",
+      "anio": 2,
+      "comision": null,
+      "docente": null,
+      "clases": [
+        {
+          "dia": 4,
+          "inicio": "11:45",
+          "fin": "12:25",
+          "modalidad": "presencial",
+          "nota": "1° Cuat 2027: Did Esp 2"
         }
       ]
     },
@@ -873,8 +869,8 @@
         {
           "dia": 4,
           "inicio": "09:45",
-          "fin": "12:25",
-          "modalidad": "bimodal",
+          "fin": "11:45",
+          "modalidad": "presencial",
           "nota": "25% sincrónica 25% asincrónica"
         }
       ]
@@ -892,7 +888,7 @@
           "inicio": "17:20",
           "fin": "20:00",
           "modalidad": "presencial",
-          "nota": "(1er cuat 2027: Didáctica Específica 2)"
+          "nota": "1er cuat 2027: Didáctica Específica 2"
         }
       ]
     },
@@ -907,32 +903,26 @@
         {
           "dia": 2,
           "inicio": "09:45",
-          "fin": "11:45",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "11:45",
           "fin": "12:25",
           "modalidad": "presencial",
-          "nota": "(1er Cuat 2027: Did Específica 1)"
+          "nota": "1er Cuat 2027: Did Específica 1"
         }
       ]
     },
     {
-      "id": "didactica-especifica-2-2-b-longobardi-didactica-vespertino",
+      "id": "didactica-especifica-2-2-b-longobardi-vespertino",
       "materiaId": "didactica-especifica-2",
       "turno": "vespertino",
       "anio": 2,
       "comision": "B",
-      "docente": "Longobardi Didáctica",
+      "docente": "Longobardi",
       "clases": [
         {
           "dia": 2,
           "inicio": "18:00",
           "fin": "20:40",
           "modalidad": "presencial",
-          "nota": "(1er cuat 2027: Específica 1)"
+          "nota": "1er cuat 2027: Didáctica Específica 1"
         }
       ]
     },
@@ -981,7 +971,7 @@
           "inicio": "17:20",
           "fin": "20:40",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -998,7 +988,7 @@
           "inicio": "17:20",
           "fin": "20:40",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1015,7 +1005,7 @@
           "inicio": "07:45",
           "fin": "09:45",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónica, 25% asincrónica)"
+          "nota": "25% sincrónica, 25% asincrónica"
         }
       ]
     },
@@ -1032,7 +1022,7 @@
           "inicio": "17:20",
           "fin": "19:20",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1049,7 +1039,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1066,7 +1056,7 @@
           "inicio": "20:00",
           "fin": "22:40",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico, 25% asincrónico)"
+          "nota": "25% sincrónico, 25% asincrónico"
         }
       ]
     },
@@ -1083,7 +1073,7 @@
           "inicio": "20:00",
           "fin": "22:40",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico, 25% asincrónico)"
+          "nota": "25% sincrónico, 25% asincrónico"
         }
       ]
     },
@@ -1175,8 +1165,8 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "bimodal",
-          "nota": "(25% sincrónica 25% asincrónica)"
+          "modalidad": "presencial",
+          "nota": "25% sincrónica 25% asincrónica"
         }
       ]
     },
@@ -1223,14 +1213,9 @@
         {
           "dia": 2,
           "inicio": "17:20",
-          "fin": "18:00",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "18:00",
           "fin": "20:00",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         }
       ]
     },
@@ -1247,7 +1232,7 @@
           "inicio": "07:45",
           "fin": "10:25",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónica 25% asincrónica)"
+          "nota": "25% sincrónica 25% asincrónica"
         }
       ]
     },
@@ -1262,16 +1247,9 @@
         {
           "dia": 1,
           "inicio": "20:00",
-          "fin": "20:40",
-          "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
-        },
-        {
-          "dia": 1,
-          "inicio": "20:40",
           "fin": "22:40",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -1285,10 +1263,10 @@
       "clases": [
         {
           "dia": 1,
-          "inicio": "22:00",
+          "inicio": "20:00",
           "fin": "22:40",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -1305,7 +1283,7 @@
           "inicio": "09:45",
           "fin": "11:45",
           "modalidad": "bimodal",
-          "nota": "(1° Cuat 2027: Taller 4) (25% sincrónica, 25% asincrónica)"
+          "nota": "1° Cuat 2027: Taller 4) (25% sincrónica, 25% asincrónica"
         }
       ]
     },
@@ -1322,7 +1300,7 @@
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "sincronico",
-          "nota": "(1er cuat 2027: Taller 4) (sincrónico)"
+          "nota": "1er cuat 2027: Taller 4) (sincrónico"
         }
       ]
     },
@@ -1339,7 +1317,7 @@
           "inicio": "10:25",
           "fin": "12:25",
           "modalidad": "presencial",
-          "nota": "(1er Cuat 2027: Taller 3)"
+          "nota": "1er Cuat 2027: Taller 3"
         }
       ]
     },
@@ -1356,7 +1334,7 @@
           "inicio": "20:40",
           "fin": "22:40",
           "modalidad": "sincronico",
-          "nota": "(1er cuat 2027: Taller 3) (sincrónico)"
+          "nota": "1er cuat 2027: Taller 3) (sincrónico"
         }
       ]
     },
@@ -1373,7 +1351,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "presencial",
-          "nota": "(1er cuatrimestre 2027: Creatividad 2)"
+          "nota": "1er cuatrimestre 2027: Creatividad 2"
         }
       ]
     },
@@ -1388,15 +1366,9 @@
         {
           "dia": 4,
           "inicio": "10:25",
-          "fin": "11:05",
-          "modalidad": "sincronico",
-          "nota": "(Prox: Creat 1) (sincrónica)"
-        },
-        {
-          "dia": 4,
-          "inicio": "11:05",
           "fin": "12:25",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": "Prox: Creat 1) (sincrónica"
         }
       ]
     },
@@ -1412,15 +1384,13 @@
           "dia": 1,
           "inicio": "10:25",
           "fin": "11:45",
-          "modalidad": "presencial",
-          "nota": "(Opción A)"
+          "modalidad": "presencial"
         },
         {
           "dia": 4,
           "inicio": "11:05",
           "fin": "12:25",
-          "modalidad": "presencial",
-          "nota": "(Opción B)"
+          "modalidad": "presencial"
         }
       ]
     },
@@ -1435,23 +1405,15 @@
         {
           "dia": 2,
           "inicio": "18:40",
-          "fin": "19:20",
-          "modalidad": "presencial",
-          "nota": "(Opción D)"
-        },
-        {
-          "dia": 2,
-          "inicio": "19:20",
           "fin": "20:00",
           "modalidad": "presencial",
-          "nota": "(Opción D)"
+          "nota": null
         },
         {
           "dia": 5,
           "inicio": "18:00",
           "fin": "19:20",
-          "modalidad": "presencial",
-          "nota": "(Opción C)"
+          "modalidad": "presencial"
         }
       ]
     },
@@ -1484,7 +1446,7 @@
           "inicio": "17:20",
           "fin": "19:20",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1501,7 +1463,7 @@
           "inicio": "17:20",
           "fin": "19:20",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1518,7 +1480,7 @@
           "inicio": "07:45",
           "fin": "09:45",
           "modalidad": "sincronico",
-          "nota": "(sincrónica)"
+          "nota": "sincrónica"
         }
       ]
     },
@@ -1535,7 +1497,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -1598,12 +1560,6 @@
         {
           "dia": 5,
           "inicio": "07:45",
-          "fin": "08:25",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 5,
-          "inicio": "08:25",
           "fin": "10:25",
           "modalidad": "presencial"
         }
@@ -1654,7 +1610,7 @@
           "inicio": "07:45",
           "fin": "08:25",
           "modalidad": "presencial",
-          "nota": "(1er Cuat 2027: Literatura 1)"
+          "nota": "1er Cuat 2027: Literatura 1"
         }
       ]
     },
@@ -1669,15 +1625,26 @@
         {
           "dia": 2,
           "inicio": "17:20",
-          "fin": "18:00",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "presencial",
-          "nota": "(1er cuat 2027:Lit 1)"
+          "nota": "1er cuat 2027:Lit 1"
+        }
+      ]
+    },
+    {
+      "id": "seminario-investigacion-accion-1-3-banfi-mañana",
+      "materiaId": "seminario-investigacion-accion-1",
+      "turno": "mañana",
+      "anio": 3,
+      "comision": null,
+      "docente": "Banfi",
+      "clases": [
+        {
+          "dia": 2,
+          "inicio": "10:25",
+          "fin": "12:25",
+          "modalidad": "presencial",
+          "nota": "25% sincrónico 50% asincrónico"
         }
       ]
     },
@@ -1694,7 +1661,7 @@
           "inicio": "07:45",
           "fin": "10:25",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1711,7 +1678,7 @@
           "inicio": "07:45",
           "fin": "10:25",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1727,8 +1694,8 @@
           "dia": 3,
           "inicio": "09:45",
           "fin": "12:25",
-          "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "modalidad": "presencial",
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -1745,7 +1712,7 @@
           "inicio": "17:20",
           "fin": "20:00",
           "modalidad": "bimodal",
-          "nota": "(Opción A) (25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -1762,7 +1729,7 @@
           "inicio": "08:25",
           "fin": "10:25",
           "modalidad": "sincronico",
-          "nota": "6 (sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -1779,7 +1746,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "sincronico",
-          "nota": "(1er Cuat 2027: Taller 5) (sincrónico)"
+          "nota": "1er Cuat 2027: Taller 5) (sincrónico"
         }
       ]
     },
@@ -1794,15 +1761,9 @@
         {
           "dia": 4,
           "inicio": "10:25",
-          "fin": "11:05",
-          "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
-        },
-        {
-          "dia": 4,
-          "inicio": "11:05",
           "fin": "12:25",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2070,8 +2031,8 @@
           "dia": 3,
           "inicio": "07:45",
           "fin": "09:45",
-          "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "modalidad": "presencial",
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2088,24 +2049,7 @@
           "inicio": "17:20",
           "fin": "19:20",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
-        }
-      ]
-    },
-    {
-      "id": "cultura-3-4-f-armendariz-mañana",
-      "materiaId": "cultura-3",
-      "turno": "mañana",
-      "anio": 4,
-      "comision": null,
-      "docente": "F. Armendariz",
-      "clases": [
-        {
-          "dia": 5,
-          "inicio": "07:45",
-          "fin": "09:45",
-          "modalidad": "bimodal",
-          "nota": "(50% sincrónico, 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2122,7 +2066,7 @@
           "inicio": "09:45",
           "fin": "12:25",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico) 1er cuat 2027: Nuevos Escenarios"
         }
       ]
     },
@@ -2155,7 +2099,7 @@
           "inicio": "07:45",
           "fin": "11:45",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -2172,7 +2116,7 @@
           "inicio": "17:20",
           "fin": "21:20",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -2188,8 +2132,8 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "modalidad": "presencial",
+          "nota": "sincrónico"
         }
       ]
     },
@@ -2206,7 +2150,7 @@
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "asincronico",
-          "nota": "(ASINCRÓNICO)"
+          "nota": "ASINCRÓNICO"
         }
       ]
     },
@@ -2221,16 +2165,9 @@
         {
           "dia": 1,
           "inicio": "17:20",
-          "fin": "18:00",
-          "modalidad": "asincronico",
-          "nota": "(ASINCRÓNICO)"
-        },
-        {
-          "dia": 1,
-          "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "asincronico",
-          "nota": "(ASINCRÓNICO)"
+          "nota": "ASINCRÓNICO"
         }
       ]
     },
@@ -2247,7 +2184,7 @@
           "inicio": "07:45",
           "fin": "09:45",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2264,7 +2201,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2279,16 +2216,9 @@
         {
           "dia": 4,
           "inicio": "07:45",
-          "fin": "08:25",
-          "modalidad": "bimodal",
-          "nota": "(25% sincrónico 50% asincrónico)"
-        },
-        {
-          "dia": 4,
-          "inicio": "08:25",
           "fin": "09:45",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 50% asincrónico)"
+          "nota": "25% sincrónico 50% asincrónico"
         }
       ]
     },
@@ -2303,14 +2233,9 @@
         {
           "dia": 2,
           "inicio": "17:20",
-          "fin": "19:20",
-          "modalidad": "presencial"
-        },
-        {
-          "dia": 2,
-          "inicio": "19:20",
           "fin": "20:00",
-          "modalidad": "presencial"
+          "modalidad": "presencial",
+          "nota": null
         }
       ]
     },
@@ -2359,7 +2284,7 @@
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "bimodal",
-          "nota": "(25% sincrónico 25% asincrónico)"
+          "nota": "25% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2376,7 +2301,7 @@
           "inicio": "07:45",
           "fin": "10:25",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     },
@@ -2391,16 +2316,9 @@
         {
           "dia": 3,
           "inicio": "19:20",
-          "fin": "20:00",
-          "modalidad": "asincronico",
-          "nota": "(ASINCRÓNICO)"
-        },
-        {
-          "dia": 3,
-          "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "asincronico",
-          "nota": "(ASINCRÓNICO)"
+          "nota": "ASINCRÓNICO"
         }
       ]
     },
@@ -2417,7 +2335,7 @@
           "inicio": "07:45",
           "fin": "09:45",
           "modalidad": "sincronico",
-          "nota": "(1er Cuat 2027: Ab Initio 1) (sincrónico)"
+          "nota": "1er Cuat 2027: Ab Initio 1) (sincrónico"
         }
       ]
     },
@@ -2434,7 +2352,24 @@
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "sincronico",
-          "nota": "(1er cuat 2027: Ab Initio 1) (sincrónico)"
+          "nota": "1er cuat 2027: Ab Initio 1) (sincrónico"
+        }
+      ]
+    },
+    {
+      "id": "cultura-3-5-f-armendariz-mañana",
+      "materiaId": "cultura-3",
+      "turno": "mañana",
+      "anio": 5,
+      "comision": null,
+      "docente": "F. Armendariz",
+      "clases": [
+        {
+          "dia": 5,
+          "inicio": "07:45",
+          "fin": "09:45",
+          "modalidad": "presencial",
+          "nota": "50% sincrónico, 25% asincrónico"
         }
       ]
     },
@@ -2451,7 +2386,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "presencial",
-          "nota": "(1er cuat 2027: Cultura 2)"
+          "nota": "1er cuat 2027: Cultura 2"
         }
       ]
     },
@@ -2468,7 +2403,7 @@
           "inicio": "09:45",
           "fin": "11:45",
           "modalidad": "bimodal",
-          "nota": "(50% sincrónico 25% asincrónico)"
+          "nota": "50% sincrónico 25% asincrónico"
         }
       ]
     },
@@ -2485,7 +2420,7 @@
           "inicio": "20:00",
           "fin": "22:00",
           "modalidad": "asincronico",
-          "nota": "(ASINCRÓNICO)"
+          "nota": "ASINCRÓNICO"
         }
       ]
     },
@@ -2506,19 +2441,19 @@
       ]
     },
     {
-      "id": "taller-musica-5-vespertino",
+      "id": "taller-musica-5-raviolo-vespertino",
       "materiaId": "taller-musica",
       "turno": "vespertino",
       "anio": 5,
       "comision": null,
-      "docente": null,
+      "docente": "RAVIOLO",
       "clases": [
         {
           "dia": 4,
           "inicio": "18:00",
           "fin": "20:00",
           "modalidad": "sincronico",
-          "nota": "(sincrónico)"
+          "nota": "sincrónico"
         }
       ]
     }
