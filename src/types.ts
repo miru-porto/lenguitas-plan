@@ -31,31 +31,33 @@ export type Campo = "CFE" | "CFPP" | "CFG" | "LE";
 // Horarios
 // ---------------------------------------------------------------------------
 
-/** Un bloque de clase concreto dentro de una comisión. */
+/** Un bloque de clase concreto (día + franja) dentro de una cátedra. */
 export interface Clase {
   dia: DiaSemana;
   /** "HH:MM" */
   inicio: string;
   /** "HH:MM" */
   fin: string;
-  docente?: string;
   modalidad: Modalidad;
   /** Texto crudo del paréntesis del grid, ej. "(25% sincrónico 25% asincrónico)". */
   nota?: string;
 }
 
 /**
- * Una comisión = una oferta cursable de una materia en un turno/año/comisión.
- * (En el grid, la "comisión A/B" de cada año; algunos años tienen una sola.)
+ * Una cátedra = la unidad seleccionable: una materia dictada por un docente en un
+ * turno/año/comisión, con sus clases. Dos cátedras de la MISMA materia son
+ * alternativas (el estudiante elige una) y no se superponen entre sí.
+ * Alinea con el concepto "cátedra = materia + profe" del proyecto rate-my-prof.
  */
-export interface Comision {
+export interface Catedra {
   id: string;
   materiaId: string;
   turno: Turno;
   /** 1..5 */
   anio: number;
-  /** "A" | "B" | undefined si el año tiene comisión única */
+  /** Grupo/cohorte del grid: "A" | "B" (o el espacio, en Trabajo de Campo). */
   comision?: string;
+  docente?: string;
   clases: Clase[];
 }
 
