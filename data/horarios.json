@@ -1331,7 +1331,7 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "bimodal",
+          "modalidad": "sincronico",
           "virtualidad": "sincrónica"
         }
       ]
@@ -2093,7 +2093,7 @@
           "dia": 4,
           "inicio": "10:25",
           "fin": "12:25",
-          "modalidad": "bimodal",
+          "modalidad": "sincronico",
           "virtualidad": "sincrónico"
         }
       ]
