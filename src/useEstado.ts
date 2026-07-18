@@ -74,6 +74,20 @@ export function useEstado() {
     [],
   );
 
+  const setEstadoMaterias = useCallback(
+    (materiaIds: string[], valor: EstadoMateria) => {
+      setEstado((e) => {
+        const historial = { ...e.historial };
+        for (const id of materiaIds) {
+          if (valor === "no-hecha") delete historial[id];
+          else historial[id] = valor;
+        }
+        return { ...e, historial };
+      });
+    },
+    [],
+  );
+
   const setTurno = useCallback((turno: FiltroTurno) => {
     setEstado((e) => ({ ...e, turno }));
   }, []);
@@ -89,6 +103,7 @@ export function useEstado() {
     estado,
     toggleCatedra,
     setEstadoMateria,
+    setEstadoMaterias,
     setTurno,
     limpiar,
     permalink,
