@@ -63,6 +63,10 @@ button {
 button:hover {
   border-color: var(--acento);
 }
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
 .app-acciones button:first-child {
   background: var(--acento);
   color: white;
