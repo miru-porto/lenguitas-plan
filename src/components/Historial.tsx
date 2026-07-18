@@ -1,5 +1,6 @@
 import type { EstadoMateria } from "../types";
 import { materias } from "../data";
+import { porcentajeCarrera } from "../progreso";
 
 const OPCIONES: { valor: EstadoMateria; label: string }[] = [
   { valor: "final", label: "En final" },
@@ -14,8 +15,18 @@ interface Props {
 
 export function Historial({ historial, onSet, onSetMuchas }: Props) {
   const anios = [1, 2, 3, 4, 5];
+  const pct = porcentajeCarrera(historial);
   return (
     <div className="historial">
+      <div className="progreso">
+        <div className="progreso-cab">
+          <span>Porcentaje de la carrera:</span>
+          <strong>{pct}%</strong>
+        </div>
+        <div className="progreso-barra">
+          <div className="progreso-relleno" style={{ width: `${pct}%` }} />
+        </div>
+      </div>
       <p className="historial-ayuda">
         Marcá lo que ya cursaste o aprobaste. Eso habilita las materias que
         dependen de esas correlativas.

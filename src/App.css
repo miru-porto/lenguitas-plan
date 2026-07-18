@@ -230,6 +230,32 @@ button:disabled {
 }
 
 /* Historial */
+.progreso {
+  margin: 0.2rem 0 0.6rem;
+}
+.progreso-cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+.progreso-cab strong {
+  color: var(--acento);
+  font-size: 1rem;
+}
+.progreso-barra {
+  height: 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--acento) 18%, transparent);
+  overflow: hidden;
+}
+.progreso-relleno {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--acento);
+  transition: width 0.25s ease;
+}
 .historial-ayuda {
   font-size: 0.83rem;
   color: var(--tenue);
