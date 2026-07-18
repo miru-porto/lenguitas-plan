@@ -1,0 +1,334 @@
+:root {
+  --bg: #f7f7fb;
+  --panel: #ffffff;
+  --borde: #e2e2ea;
+  --texto: #1c1c22;
+  --tenue: #6b6b78;
+  --acento: #6a4bd8;
+  --choca: #e5484d;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16161a;
+    --panel: #1f1f26;
+    --borde: #33333d;
+    --texto: #ececf1;
+    --tenue: #9a9aa8;
+    --acento: #9d86f0;
+    --choca: #ff6369;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--texto);
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.app-sub {
+  margin: 0.2rem 0 0;
+  color: var(--tenue);
+  font-size: 0.9rem;
+}
+.app-acciones {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--borde);
+  background: var(--panel);
+  color: var(--texto);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+}
+button:hover {
+  border-color: var(--acento);
+}
+.app-acciones button:first-child {
+  background: var(--acento);
+  color: white;
+  border-color: var(--acento);
+}
+.btn-secundario {
+  color: var(--tenue);
+}
+
+.banner-conflicto {
+  margin: 0.8rem 0;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--choca) 15%, var(--panel));
+  border: 1px solid var(--choca);
+  color: var(--texto);
+  font-size: 0.9rem;
+}
+
+.app-cuerpo {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+@media (max-width: 820px) {
+  .app-cuerpo {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 0.8rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.panel-tabs {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.panel-tabs button {
+  flex: 1;
+}
+.tab-activo {
+  background: var(--acento) !important;
+  color: white !important;
+  border-color: var(--acento) !important;
+}
+.panel-filtros {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.chip {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 999px;
+}
+.chip-activo {
+  background: var(--acento);
+  color: white;
+  border-color: var(--acento);
+}
+
+/* Selector de materias */
+.selector-anio h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--tenue);
+  margin: 0.8rem 0 0.3rem;
+}
+.materia {
+  margin-bottom: 2px;
+}
+.materia-cab {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 0.35rem 0.4rem;
+  border-radius: 8px;
+}
+.materia-cab:hover {
+  background: color-mix(in srgb, var(--acento) 10%, transparent);
+}
+.materia-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.materia-nombre {
+  flex: 1;
+  font-size: 0.9rem;
+}
+.materia-badge {
+  background: var(--acento);
+  color: white;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  padding: 0.05rem 0.4rem;
+}
+.materia-bloqueada .materia-nombre {
+  color: var(--tenue);
+  opacity: 0.6;
+}
+.materia-lock {
+  font-size: 0.75rem;
+}
+
+.catedras {
+  list-style: none;
+  margin: 0 0 0.4rem;
+  padding: 0 0 0 1.5rem;
+}
+.catedra-aviso {
+  font-size: 0.8rem;
+  color: var(--choca);
+  padding: 0.2rem 0;
+}
+.catedra {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2rem 0.5rem;
+  align-items: baseline;
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+.catedra input {
+  grid-row: span 2;
+  align-self: center;
+}
+.catedra-docente {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.catedra-turno {
+  font-weight: 400;
+  color: var(--tenue);
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+}
+.catedra-horario {
+  grid-column: 2;
+  font-size: 0.78rem;
+  color: var(--tenue);
+}
+
+/* Historial */
+.historial-ayuda {
+  font-size: 0.83rem;
+  color: var(--tenue);
+  margin: 0.2rem 0 0.5rem;
+}
+.historial-fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+.historial-nombre {
+  font-size: 0.85rem;
+  flex: 1;
+}
+.historial-opciones {
+  display: flex;
+  gap: 0.2rem;
+}
+.hist-btn {
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  border-radius: 6px;
+}
+.hist-btn-activo {
+  background: var(--acento);
+  color: white;
+  border-color: var(--acento);
+}
+
+/* Grilla */
+.app-grilla {
+  background: var(--panel);
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  padding: 0.8rem;
+  overflow-x: auto;
+}
+.grilla-vacia {
+  color: var(--tenue);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.grilla {
+  display: grid;
+  grid-template-columns: 48px repeat(5, 1fr);
+  gap: 4px;
+  min-width: 640px;
+}
+.grilla-horas {
+  position: relative;
+}
+.grilla-hora {
+  position: absolute;
+  right: 4px;
+  font-size: 0.7rem;
+  color: var(--tenue);
+  transform: translateY(-50%);
+}
+.grilla-dia-titulo {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+}
+.grilla-dia-cuerpo {
+  position: relative;
+  border-left: 1px solid var(--borde);
+}
+.grilla-linea {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed var(--borde);
+}
+.clase {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  border-radius: 6px;
+  padding: 3px 5px;
+  overflow: hidden;
+  color: #1c1c22;
+  font-size: 0.72rem;
+  line-height: 1.15;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.clase strong {
+  display: block;
+  font-size: 0.74rem;
+}
+.clase span {
+  display: block;
+}
+.clase-hora {
+  opacity: 0.75;
+}
+.clase-choca {
+  outline: 2px solid var(--choca);
+  outline-offset: -2px;
+}
+.clase-async {
+  opacity: 0.82;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.25) 0 6px,
+    transparent 6px 12px
+  );
+}
